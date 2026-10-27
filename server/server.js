@@ -12,6 +12,12 @@ async function startServer() {
   const dbStatus = await checkDatabaseConnection()
   if (dbStatus.ok) {
     logger.info(`Connected to DWM Warehouse database (latency: ${dbStatus.latencyMs}ms)`)
+    try {
+      const { seedWarehouseBenchmarkData } = await import('./src/services/dwh/etlPipeline.js')
+      await seedWarehouseBenchmarkData()
+    } catch (seedErr) {
+      logger.warn('Auto-seed benchmark notice:', { error: seedErr.message })
+    }
   } else {
     logger.warn(`DWM Warehouse database connection pending/warning: ${dbStatus.reason}`)
   }

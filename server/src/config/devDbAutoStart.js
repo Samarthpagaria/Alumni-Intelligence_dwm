@@ -46,11 +46,11 @@ export async function ensureDwmDatabase() {
         logger.info('No external PostgreSQL detected on port 54329; auto-starting embedded development database...')
         try {
           const here = path.dirname(fileURLToPath(import.meta.url))
-          const devPgPath = path.resolve(here, '../../../../server/scripts/dev-postgres.js')
+          const devPgPath = path.resolve(here, '../../scripts/dev-postgres.js')
           const { startDevPg } = await import(pathToFileURL(devPgPath).href)
           embeddedDevPg = await startDevPg({ quiet: false, registerSignals: false })
 
-          for (let i = 0; i < 15; i++) {
+          for (let i = 0; i < 30; i++) {
             if (await isPortOpen(54329)) break
             await new Promise((r) => setTimeout(r, 100))
           }

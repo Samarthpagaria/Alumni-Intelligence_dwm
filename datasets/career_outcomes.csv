@@ -1,0 +1,2001 @@
+outcome_id,alumni_id,observation_period_months,employed_within_6_months,career_level,industry,experience_years_at_observation,data_source
+IND-OUT-000001,IND-ALUM-000001,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-000002,IND-ALUM-000002,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000003,IND-ALUM-000003,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000004,IND-ALUM-000004,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000005,IND-ALUM-000005,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000006,IND-ALUM-000006,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000007,IND-ALUM-000007,6,0,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000008,IND-ALUM-000008,6,0,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000009,IND-ALUM-000009,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000010,IND-ALUM-000010,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000011,IND-ALUM-000011,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000012,IND-ALUM-000012,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000013,IND-ALUM-000013,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000014,IND-ALUM-000014,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000015,IND-ALUM-000015,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000016,IND-ALUM-000016,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-000017,IND-ALUM-000017,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000018,IND-ALUM-000018,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000019,IND-ALUM-000019,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000020,IND-ALUM-000020,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000021,IND-ALUM-000021,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000022,IND-ALUM-000022,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000023,IND-ALUM-000023,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000024,IND-ALUM-000024,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000025,IND-ALUM-000025,6,1,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000026,IND-ALUM-000026,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000027,IND-ALUM-000027,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000028,IND-ALUM-000028,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000029,IND-ALUM-000029,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000030,IND-ALUM-000030,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000031,IND-ALUM-000031,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000032,IND-ALUM-000032,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000033,IND-ALUM-000033,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000034,IND-ALUM-000034,6,0,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000035,IND-ALUM-000035,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000036,IND-ALUM-000036,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000037,IND-ALUM-000037,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000038,IND-ALUM-000038,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000039,IND-ALUM-000039,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000040,IND-ALUM-000040,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000041,IND-ALUM-000041,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000042,IND-ALUM-000042,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000043,IND-ALUM-000043,6,0,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000044,IND-ALUM-000044,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000045,IND-ALUM-000045,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-000046,IND-ALUM-000046,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000047,IND-ALUM-000047,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000048,IND-ALUM-000048,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000049,IND-ALUM-000049,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000050,IND-ALUM-000050,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000051,IND-ALUM-000051,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-000052,IND-ALUM-000052,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000053,IND-ALUM-000053,6,1,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-000054,IND-ALUM-000054,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000055,IND-ALUM-000055,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000056,IND-ALUM-000056,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000057,IND-ALUM-000057,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000058,IND-ALUM-000058,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-000059,IND-ALUM-000059,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000060,IND-ALUM-000060,6,1,Lead/Principal,Automotive & EV Systems,8,indian_academic_benchmark
+IND-OUT-000061,IND-ALUM-000061,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000062,IND-ALUM-000062,6,0,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000063,IND-ALUM-000063,6,0,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000064,IND-ALUM-000064,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000065,IND-ALUM-000065,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000066,IND-ALUM-000066,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000067,IND-ALUM-000067,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000068,IND-ALUM-000068,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000069,IND-ALUM-000069,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000070,IND-ALUM-000070,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000071,IND-ALUM-000071,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000072,IND-ALUM-000072,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000073,IND-ALUM-000073,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000074,IND-ALUM-000074,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000075,IND-ALUM-000075,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000076,IND-ALUM-000076,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000077,IND-ALUM-000077,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000078,IND-ALUM-000078,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000079,IND-ALUM-000079,6,0,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000080,IND-ALUM-000080,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000081,IND-ALUM-000081,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000082,IND-ALUM-000082,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000083,IND-ALUM-000083,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000084,IND-ALUM-000084,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000085,IND-ALUM-000085,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000086,IND-ALUM-000086,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000087,IND-ALUM-000087,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000088,IND-ALUM-000088,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000089,IND-ALUM-000089,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000090,IND-ALUM-000090,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000091,IND-ALUM-000091,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000092,IND-ALUM-000092,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-000093,IND-ALUM-000093,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-000094,IND-ALUM-000094,6,0,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000095,IND-ALUM-000095,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000096,IND-ALUM-000096,6,0,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-000097,IND-ALUM-000097,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000098,IND-ALUM-000098,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000099,IND-ALUM-000099,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000100,IND-ALUM-000100,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000101,IND-ALUM-000101,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000102,IND-ALUM-000102,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000103,IND-ALUM-000103,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000104,IND-ALUM-000104,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000105,IND-ALUM-000105,6,1,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-000106,IND-ALUM-000106,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-000107,IND-ALUM-000107,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000108,IND-ALUM-000108,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000109,IND-ALUM-000109,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000110,IND-ALUM-000110,6,1,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-000111,IND-ALUM-000111,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000112,IND-ALUM-000112,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000113,IND-ALUM-000113,6,1,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000114,IND-ALUM-000114,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000115,IND-ALUM-000115,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000116,IND-ALUM-000116,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000117,IND-ALUM-000117,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000118,IND-ALUM-000118,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000119,IND-ALUM-000119,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000120,IND-ALUM-000120,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-000121,IND-ALUM-000121,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000122,IND-ALUM-000122,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000123,IND-ALUM-000123,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000124,IND-ALUM-000124,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000125,IND-ALUM-000125,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000126,IND-ALUM-000126,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000127,IND-ALUM-000127,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000128,IND-ALUM-000128,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000129,IND-ALUM-000129,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000130,IND-ALUM-000130,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000131,IND-ALUM-000131,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-000132,IND-ALUM-000132,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000133,IND-ALUM-000133,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000134,IND-ALUM-000134,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000135,IND-ALUM-000135,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000136,IND-ALUM-000136,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000137,IND-ALUM-000137,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000138,IND-ALUM-000138,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000139,IND-ALUM-000139,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000140,IND-ALUM-000140,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000141,IND-ALUM-000141,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000142,IND-ALUM-000142,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000143,IND-ALUM-000143,6,0,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000144,IND-ALUM-000144,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000145,IND-ALUM-000145,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000146,IND-ALUM-000146,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000147,IND-ALUM-000147,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000148,IND-ALUM-000148,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000149,IND-ALUM-000149,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000150,IND-ALUM-000150,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000151,IND-ALUM-000151,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000152,IND-ALUM-000152,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000153,IND-ALUM-000153,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000154,IND-ALUM-000154,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000155,IND-ALUM-000155,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000156,IND-ALUM-000156,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000157,IND-ALUM-000157,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000158,IND-ALUM-000158,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000159,IND-ALUM-000159,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000160,IND-ALUM-000160,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000161,IND-ALUM-000161,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000162,IND-ALUM-000162,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000163,IND-ALUM-000163,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000164,IND-ALUM-000164,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000165,IND-ALUM-000165,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000166,IND-ALUM-000166,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000167,IND-ALUM-000167,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000168,IND-ALUM-000168,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000169,IND-ALUM-000169,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000170,IND-ALUM-000170,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000171,IND-ALUM-000171,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000172,IND-ALUM-000172,6,1,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-000173,IND-ALUM-000173,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000174,IND-ALUM-000174,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000175,IND-ALUM-000175,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000176,IND-ALUM-000176,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000177,IND-ALUM-000177,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000178,IND-ALUM-000178,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000179,IND-ALUM-000179,6,0,Lead/Principal,Banking & FinTech (BFSI),8,indian_academic_benchmark
+IND-OUT-000180,IND-ALUM-000180,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000181,IND-ALUM-000181,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000182,IND-ALUM-000182,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000183,IND-ALUM-000183,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000184,IND-ALUM-000184,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000185,IND-ALUM-000185,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000186,IND-ALUM-000186,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000187,IND-ALUM-000187,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000188,IND-ALUM-000188,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000189,IND-ALUM-000189,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000190,IND-ALUM-000190,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000191,IND-ALUM-000191,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000192,IND-ALUM-000192,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000193,IND-ALUM-000193,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000194,IND-ALUM-000194,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000195,IND-ALUM-000195,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000196,IND-ALUM-000196,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000197,IND-ALUM-000197,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000198,IND-ALUM-000198,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000199,IND-ALUM-000199,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000200,IND-ALUM-000200,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000201,IND-ALUM-000201,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000202,IND-ALUM-000202,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000203,IND-ALUM-000203,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000204,IND-ALUM-000204,6,1,Lead/Principal,Banking & FinTech (BFSI),8,indian_academic_benchmark
+IND-OUT-000205,IND-ALUM-000205,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000206,IND-ALUM-000206,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000207,IND-ALUM-000207,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000208,IND-ALUM-000208,6,0,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000209,IND-ALUM-000209,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000210,IND-ALUM-000210,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000211,IND-ALUM-000211,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000212,IND-ALUM-000212,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000213,IND-ALUM-000213,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000214,IND-ALUM-000214,6,0,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000215,IND-ALUM-000215,6,1,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-000216,IND-ALUM-000216,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000217,IND-ALUM-000217,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000218,IND-ALUM-000218,6,0,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000219,IND-ALUM-000219,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000220,IND-ALUM-000220,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-000221,IND-ALUM-000221,6,0,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000222,IND-ALUM-000222,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000223,IND-ALUM-000223,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000224,IND-ALUM-000224,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000225,IND-ALUM-000225,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000226,IND-ALUM-000226,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000227,IND-ALUM-000227,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000228,IND-ALUM-000228,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000229,IND-ALUM-000229,6,1,Lead/Principal,Automotive & EV Systems,8,indian_academic_benchmark
+IND-OUT-000230,IND-ALUM-000230,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000231,IND-ALUM-000231,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000232,IND-ALUM-000232,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000233,IND-ALUM-000233,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000234,IND-ALUM-000234,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000235,IND-ALUM-000235,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000236,IND-ALUM-000236,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000237,IND-ALUM-000237,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000238,IND-ALUM-000238,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000239,IND-ALUM-000239,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000240,IND-ALUM-000240,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000241,IND-ALUM-000241,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000242,IND-ALUM-000242,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000243,IND-ALUM-000243,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000244,IND-ALUM-000244,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000245,IND-ALUM-000245,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000246,IND-ALUM-000246,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000247,IND-ALUM-000247,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000248,IND-ALUM-000248,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000249,IND-ALUM-000249,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-000250,IND-ALUM-000250,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000251,IND-ALUM-000251,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000252,IND-ALUM-000252,6,0,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000253,IND-ALUM-000253,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000254,IND-ALUM-000254,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000255,IND-ALUM-000255,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000256,IND-ALUM-000256,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-000257,IND-ALUM-000257,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000258,IND-ALUM-000258,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000259,IND-ALUM-000259,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-000260,IND-ALUM-000260,6,0,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000261,IND-ALUM-000261,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-000262,IND-ALUM-000262,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000263,IND-ALUM-000263,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000264,IND-ALUM-000264,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000265,IND-ALUM-000265,6,1,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-000266,IND-ALUM-000266,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000267,IND-ALUM-000267,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000268,IND-ALUM-000268,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000269,IND-ALUM-000269,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000270,IND-ALUM-000270,6,0,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000271,IND-ALUM-000271,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000272,IND-ALUM-000272,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000273,IND-ALUM-000273,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-000274,IND-ALUM-000274,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000275,IND-ALUM-000275,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-000276,IND-ALUM-000276,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000277,IND-ALUM-000277,6,1,Lead/Principal,Automotive & EV Systems,8,indian_academic_benchmark
+IND-OUT-000278,IND-ALUM-000278,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000279,IND-ALUM-000279,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000280,IND-ALUM-000280,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000281,IND-ALUM-000281,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-000282,IND-ALUM-000282,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000283,IND-ALUM-000283,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000284,IND-ALUM-000284,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000285,IND-ALUM-000285,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000286,IND-ALUM-000286,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000287,IND-ALUM-000287,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000288,IND-ALUM-000288,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000289,IND-ALUM-000289,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000290,IND-ALUM-000290,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000291,IND-ALUM-000291,6,1,Lead/Principal,Banking & FinTech (BFSI),8,indian_academic_benchmark
+IND-OUT-000292,IND-ALUM-000292,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000293,IND-ALUM-000293,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000294,IND-ALUM-000294,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000295,IND-ALUM-000295,6,0,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-000296,IND-ALUM-000296,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000297,IND-ALUM-000297,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000298,IND-ALUM-000298,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000299,IND-ALUM-000299,6,0,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000300,IND-ALUM-000300,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000301,IND-ALUM-000301,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000302,IND-ALUM-000302,6,0,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000303,IND-ALUM-000303,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000304,IND-ALUM-000304,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000305,IND-ALUM-000305,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-000306,IND-ALUM-000306,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000307,IND-ALUM-000307,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000308,IND-ALUM-000308,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000309,IND-ALUM-000309,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000310,IND-ALUM-000310,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000311,IND-ALUM-000311,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000312,IND-ALUM-000312,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000313,IND-ALUM-000313,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000314,IND-ALUM-000314,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000315,IND-ALUM-000315,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000316,IND-ALUM-000316,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000317,IND-ALUM-000317,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000318,IND-ALUM-000318,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000319,IND-ALUM-000319,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000320,IND-ALUM-000320,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000321,IND-ALUM-000321,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000322,IND-ALUM-000322,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000323,IND-ALUM-000323,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000324,IND-ALUM-000324,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000325,IND-ALUM-000325,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000326,IND-ALUM-000326,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000327,IND-ALUM-000327,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000328,IND-ALUM-000328,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000329,IND-ALUM-000329,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000330,IND-ALUM-000330,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000331,IND-ALUM-000331,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000332,IND-ALUM-000332,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000333,IND-ALUM-000333,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000334,IND-ALUM-000334,6,1,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-000335,IND-ALUM-000335,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000336,IND-ALUM-000336,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000337,IND-ALUM-000337,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000338,IND-ALUM-000338,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000339,IND-ALUM-000339,6,0,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000340,IND-ALUM-000340,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000341,IND-ALUM-000341,6,0,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000342,IND-ALUM-000342,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000343,IND-ALUM-000343,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000344,IND-ALUM-000344,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000345,IND-ALUM-000345,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000346,IND-ALUM-000346,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000347,IND-ALUM-000347,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000348,IND-ALUM-000348,6,0,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000349,IND-ALUM-000349,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000350,IND-ALUM-000350,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000351,IND-ALUM-000351,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000352,IND-ALUM-000352,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000353,IND-ALUM-000353,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000354,IND-ALUM-000354,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000355,IND-ALUM-000355,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000356,IND-ALUM-000356,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000357,IND-ALUM-000357,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000358,IND-ALUM-000358,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000359,IND-ALUM-000359,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000360,IND-ALUM-000360,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-000361,IND-ALUM-000361,6,0,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000362,IND-ALUM-000362,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000363,IND-ALUM-000363,6,0,Entry-Level,EdTech & Digital Learning,0,indian_academic_benchmark
+IND-OUT-000364,IND-ALUM-000364,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000365,IND-ALUM-000365,6,0,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000366,IND-ALUM-000366,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000367,IND-ALUM-000367,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000368,IND-ALUM-000368,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000369,IND-ALUM-000369,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000370,IND-ALUM-000370,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000371,IND-ALUM-000371,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000372,IND-ALUM-000372,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000373,IND-ALUM-000373,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000374,IND-ALUM-000374,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000375,IND-ALUM-000375,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000376,IND-ALUM-000376,6,0,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000377,IND-ALUM-000377,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000378,IND-ALUM-000378,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000379,IND-ALUM-000379,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000380,IND-ALUM-000380,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000381,IND-ALUM-000381,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000382,IND-ALUM-000382,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000383,IND-ALUM-000383,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000384,IND-ALUM-000384,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-000385,IND-ALUM-000385,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000386,IND-ALUM-000386,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-000387,IND-ALUM-000387,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000388,IND-ALUM-000388,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-000389,IND-ALUM-000389,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000390,IND-ALUM-000390,6,0,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000391,IND-ALUM-000391,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000392,IND-ALUM-000392,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000393,IND-ALUM-000393,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000394,IND-ALUM-000394,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000395,IND-ALUM-000395,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000396,IND-ALUM-000396,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000397,IND-ALUM-000397,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000398,IND-ALUM-000398,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000399,IND-ALUM-000399,6,0,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000400,IND-ALUM-000400,6,0,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000401,IND-ALUM-000401,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000402,IND-ALUM-000402,6,0,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000403,IND-ALUM-000403,6,0,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000404,IND-ALUM-000404,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000405,IND-ALUM-000405,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000406,IND-ALUM-000406,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000407,IND-ALUM-000407,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000408,IND-ALUM-000408,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000409,IND-ALUM-000409,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000410,IND-ALUM-000410,6,0,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000411,IND-ALUM-000411,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000412,IND-ALUM-000412,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000413,IND-ALUM-000413,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000414,IND-ALUM-000414,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000415,IND-ALUM-000415,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000416,IND-ALUM-000416,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000417,IND-ALUM-000417,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000418,IND-ALUM-000418,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000419,IND-ALUM-000419,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000420,IND-ALUM-000420,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-000421,IND-ALUM-000421,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000422,IND-ALUM-000422,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000423,IND-ALUM-000423,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000424,IND-ALUM-000424,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000425,IND-ALUM-000425,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-000426,IND-ALUM-000426,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000427,IND-ALUM-000427,6,0,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-000428,IND-ALUM-000428,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000429,IND-ALUM-000429,6,1,Entry-Level,Consulting & IT Services,0,indian_academic_benchmark
+IND-OUT-000430,IND-ALUM-000430,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000431,IND-ALUM-000431,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000432,IND-ALUM-000432,6,0,Entry-Level,EdTech & Digital Learning,0,indian_academic_benchmark
+IND-OUT-000433,IND-ALUM-000433,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000434,IND-ALUM-000434,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-000435,IND-ALUM-000435,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000436,IND-ALUM-000436,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000437,IND-ALUM-000437,6,0,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000438,IND-ALUM-000438,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000439,IND-ALUM-000439,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000440,IND-ALUM-000440,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000441,IND-ALUM-000441,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000442,IND-ALUM-000442,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000443,IND-ALUM-000443,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000444,IND-ALUM-000444,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000445,IND-ALUM-000445,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000446,IND-ALUM-000446,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000447,IND-ALUM-000447,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000448,IND-ALUM-000448,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000449,IND-ALUM-000449,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000450,IND-ALUM-000450,6,1,Entry-Level,Consulting & IT Services,0,indian_academic_benchmark
+IND-OUT-000451,IND-ALUM-000451,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000452,IND-ALUM-000452,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000453,IND-ALUM-000453,6,1,Lead/Principal,Automotive & EV Systems,8,indian_academic_benchmark
+IND-OUT-000454,IND-ALUM-000454,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000455,IND-ALUM-000455,6,0,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-000456,IND-ALUM-000456,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000457,IND-ALUM-000457,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000458,IND-ALUM-000458,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000459,IND-ALUM-000459,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000460,IND-ALUM-000460,6,1,Lead/Principal,EdTech & Digital Learning,8,indian_academic_benchmark
+IND-OUT-000461,IND-ALUM-000461,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000462,IND-ALUM-000462,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000463,IND-ALUM-000463,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000464,IND-ALUM-000464,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000465,IND-ALUM-000465,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000466,IND-ALUM-000466,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000467,IND-ALUM-000467,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000468,IND-ALUM-000468,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000469,IND-ALUM-000469,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000470,IND-ALUM-000470,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000471,IND-ALUM-000471,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-000472,IND-ALUM-000472,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000473,IND-ALUM-000473,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-000474,IND-ALUM-000474,6,1,Lead/Principal,EdTech & Digital Learning,8,indian_academic_benchmark
+IND-OUT-000475,IND-ALUM-000475,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000476,IND-ALUM-000476,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000477,IND-ALUM-000477,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000478,IND-ALUM-000478,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-000479,IND-ALUM-000479,6,1,Entry-Level,Information Technology & SaaS,0,indian_academic_benchmark
+IND-OUT-000480,IND-ALUM-000480,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000481,IND-ALUM-000481,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000482,IND-ALUM-000482,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000483,IND-ALUM-000483,6,1,Entry-Level,Banking & FinTech (BFSI),0,indian_academic_benchmark
+IND-OUT-000484,IND-ALUM-000484,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000485,IND-ALUM-000485,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000486,IND-ALUM-000486,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000487,IND-ALUM-000487,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000488,IND-ALUM-000488,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000489,IND-ALUM-000489,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000490,IND-ALUM-000490,6,0,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000491,IND-ALUM-000491,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000492,IND-ALUM-000492,6,0,Entry-Level,Banking & FinTech (BFSI),0,indian_academic_benchmark
+IND-OUT-000493,IND-ALUM-000493,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000494,IND-ALUM-000494,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000495,IND-ALUM-000495,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000496,IND-ALUM-000496,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000497,IND-ALUM-000497,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000498,IND-ALUM-000498,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000499,IND-ALUM-000499,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000500,IND-ALUM-000500,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000501,IND-ALUM-000501,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000502,IND-ALUM-000502,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000503,IND-ALUM-000503,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000504,IND-ALUM-000504,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000505,IND-ALUM-000505,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000506,IND-ALUM-000506,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000507,IND-ALUM-000507,6,0,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000508,IND-ALUM-000508,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000509,IND-ALUM-000509,6,0,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000510,IND-ALUM-000510,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-000511,IND-ALUM-000511,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000512,IND-ALUM-000512,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000513,IND-ALUM-000513,6,1,Lead/Principal,E-Commerce & Quick Commerce,9,indian_academic_benchmark
+IND-OUT-000514,IND-ALUM-000514,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000515,IND-ALUM-000515,6,0,Entry-Level,Information Technology & SaaS,0,indian_academic_benchmark
+IND-OUT-000516,IND-ALUM-000516,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000517,IND-ALUM-000517,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-000518,IND-ALUM-000518,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000519,IND-ALUM-000519,6,0,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000520,IND-ALUM-000520,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000521,IND-ALUM-000521,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000522,IND-ALUM-000522,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000523,IND-ALUM-000523,6,0,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000524,IND-ALUM-000524,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000525,IND-ALUM-000525,6,1,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000526,IND-ALUM-000526,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000527,IND-ALUM-000527,6,1,Lead/Principal,Automotive & EV Systems,8,indian_academic_benchmark
+IND-OUT-000528,IND-ALUM-000528,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000529,IND-ALUM-000529,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000530,IND-ALUM-000530,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000531,IND-ALUM-000531,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000532,IND-ALUM-000532,6,1,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-000533,IND-ALUM-000533,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000534,IND-ALUM-000534,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000535,IND-ALUM-000535,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000536,IND-ALUM-000536,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000537,IND-ALUM-000537,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000538,IND-ALUM-000538,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000539,IND-ALUM-000539,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000540,IND-ALUM-000540,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000541,IND-ALUM-000541,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000542,IND-ALUM-000542,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000543,IND-ALUM-000543,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000544,IND-ALUM-000544,6,0,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000545,IND-ALUM-000545,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000546,IND-ALUM-000546,6,0,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000547,IND-ALUM-000547,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000548,IND-ALUM-000548,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000549,IND-ALUM-000549,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000550,IND-ALUM-000550,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000551,IND-ALUM-000551,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000552,IND-ALUM-000552,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000553,IND-ALUM-000553,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000554,IND-ALUM-000554,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000555,IND-ALUM-000555,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000556,IND-ALUM-000556,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000557,IND-ALUM-000557,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000558,IND-ALUM-000558,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000559,IND-ALUM-000559,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000560,IND-ALUM-000560,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000561,IND-ALUM-000561,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000562,IND-ALUM-000562,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000563,IND-ALUM-000563,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000564,IND-ALUM-000564,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000565,IND-ALUM-000565,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000566,IND-ALUM-000566,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000567,IND-ALUM-000567,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000568,IND-ALUM-000568,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000569,IND-ALUM-000569,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000570,IND-ALUM-000570,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000571,IND-ALUM-000571,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000572,IND-ALUM-000572,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000573,IND-ALUM-000573,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000574,IND-ALUM-000574,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000575,IND-ALUM-000575,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000576,IND-ALUM-000576,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000577,IND-ALUM-000577,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000578,IND-ALUM-000578,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000579,IND-ALUM-000579,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000580,IND-ALUM-000580,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000581,IND-ALUM-000581,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000582,IND-ALUM-000582,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000583,IND-ALUM-000583,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000584,IND-ALUM-000584,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000585,IND-ALUM-000585,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000586,IND-ALUM-000586,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000587,IND-ALUM-000587,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000588,IND-ALUM-000588,6,0,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000589,IND-ALUM-000589,6,1,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-000590,IND-ALUM-000590,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-000591,IND-ALUM-000591,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000592,IND-ALUM-000592,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000593,IND-ALUM-000593,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000594,IND-ALUM-000594,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000595,IND-ALUM-000595,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000596,IND-ALUM-000596,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000597,IND-ALUM-000597,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000598,IND-ALUM-000598,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000599,IND-ALUM-000599,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000600,IND-ALUM-000600,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000601,IND-ALUM-000601,6,0,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000602,IND-ALUM-000602,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000603,IND-ALUM-000603,6,0,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-000604,IND-ALUM-000604,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000605,IND-ALUM-000605,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000606,IND-ALUM-000606,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000607,IND-ALUM-000607,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000608,IND-ALUM-000608,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000609,IND-ALUM-000609,6,0,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000610,IND-ALUM-000610,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-000611,IND-ALUM-000611,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000612,IND-ALUM-000612,6,0,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000613,IND-ALUM-000613,6,0,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-000614,IND-ALUM-000614,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000615,IND-ALUM-000615,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000616,IND-ALUM-000616,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000617,IND-ALUM-000617,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000618,IND-ALUM-000618,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000619,IND-ALUM-000619,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000620,IND-ALUM-000620,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000621,IND-ALUM-000621,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000622,IND-ALUM-000622,6,1,Lead/Principal,Automotive & EV Systems,8,indian_academic_benchmark
+IND-OUT-000623,IND-ALUM-000623,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000624,IND-ALUM-000624,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000625,IND-ALUM-000625,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000626,IND-ALUM-000626,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000627,IND-ALUM-000627,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000628,IND-ALUM-000628,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000629,IND-ALUM-000629,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000630,IND-ALUM-000630,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000631,IND-ALUM-000631,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000632,IND-ALUM-000632,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000633,IND-ALUM-000633,6,0,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000634,IND-ALUM-000634,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000635,IND-ALUM-000635,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000636,IND-ALUM-000636,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000637,IND-ALUM-000637,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000638,IND-ALUM-000638,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000639,IND-ALUM-000639,6,1,Entry-Level,Banking & FinTech (BFSI),0,indian_academic_benchmark
+IND-OUT-000640,IND-ALUM-000640,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000641,IND-ALUM-000641,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000642,IND-ALUM-000642,6,1,Entry-Level,Consulting & IT Services,0,indian_academic_benchmark
+IND-OUT-000643,IND-ALUM-000643,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000644,IND-ALUM-000644,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000645,IND-ALUM-000645,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000646,IND-ALUM-000646,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-000647,IND-ALUM-000647,6,0,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-000648,IND-ALUM-000648,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000649,IND-ALUM-000649,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000650,IND-ALUM-000650,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000651,IND-ALUM-000651,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000652,IND-ALUM-000652,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000653,IND-ALUM-000653,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000654,IND-ALUM-000654,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000655,IND-ALUM-000655,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-000656,IND-ALUM-000656,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000657,IND-ALUM-000657,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000658,IND-ALUM-000658,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000659,IND-ALUM-000659,6,1,Lead/Principal,Automotive & EV Systems,8,indian_academic_benchmark
+IND-OUT-000660,IND-ALUM-000660,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000661,IND-ALUM-000661,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000662,IND-ALUM-000662,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000663,IND-ALUM-000663,6,1,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-000664,IND-ALUM-000664,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000665,IND-ALUM-000665,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000666,IND-ALUM-000666,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000667,IND-ALUM-000667,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000668,IND-ALUM-000668,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000669,IND-ALUM-000669,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000670,IND-ALUM-000670,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000671,IND-ALUM-000671,6,0,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000672,IND-ALUM-000672,6,0,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000673,IND-ALUM-000673,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000674,IND-ALUM-000674,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000675,IND-ALUM-000675,6,0,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000676,IND-ALUM-000676,6,0,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000677,IND-ALUM-000677,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000678,IND-ALUM-000678,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000679,IND-ALUM-000679,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000680,IND-ALUM-000680,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000681,IND-ALUM-000681,6,0,Entry-Level,Information Technology & SaaS,0,indian_academic_benchmark
+IND-OUT-000682,IND-ALUM-000682,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000683,IND-ALUM-000683,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000684,IND-ALUM-000684,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000685,IND-ALUM-000685,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000686,IND-ALUM-000686,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000687,IND-ALUM-000687,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000688,IND-ALUM-000688,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000689,IND-ALUM-000689,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-000690,IND-ALUM-000690,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000691,IND-ALUM-000691,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000692,IND-ALUM-000692,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000693,IND-ALUM-000693,6,0,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000694,IND-ALUM-000694,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000695,IND-ALUM-000695,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000696,IND-ALUM-000696,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000697,IND-ALUM-000697,6,0,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-000698,IND-ALUM-000698,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000699,IND-ALUM-000699,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000700,IND-ALUM-000700,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000701,IND-ALUM-000701,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000702,IND-ALUM-000702,6,0,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000703,IND-ALUM-000703,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000704,IND-ALUM-000704,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000705,IND-ALUM-000705,6,0,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000706,IND-ALUM-000706,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000707,IND-ALUM-000707,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000708,IND-ALUM-000708,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000709,IND-ALUM-000709,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000710,IND-ALUM-000710,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000711,IND-ALUM-000711,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000712,IND-ALUM-000712,6,1,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-000713,IND-ALUM-000713,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000714,IND-ALUM-000714,6,0,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000715,IND-ALUM-000715,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000716,IND-ALUM-000716,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000717,IND-ALUM-000717,6,0,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000718,IND-ALUM-000718,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000719,IND-ALUM-000719,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000720,IND-ALUM-000720,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000721,IND-ALUM-000721,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000722,IND-ALUM-000722,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000723,IND-ALUM-000723,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000724,IND-ALUM-000724,6,0,Entry-Level,Consulting & IT Services,0,indian_academic_benchmark
+IND-OUT-000725,IND-ALUM-000725,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000726,IND-ALUM-000726,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000727,IND-ALUM-000727,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000728,IND-ALUM-000728,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000729,IND-ALUM-000729,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000730,IND-ALUM-000730,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000731,IND-ALUM-000731,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000732,IND-ALUM-000732,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000733,IND-ALUM-000733,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000734,IND-ALUM-000734,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000735,IND-ALUM-000735,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000736,IND-ALUM-000736,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000737,IND-ALUM-000737,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000738,IND-ALUM-000738,6,0,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-000739,IND-ALUM-000739,6,1,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-000740,IND-ALUM-000740,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000741,IND-ALUM-000741,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000742,IND-ALUM-000742,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-000743,IND-ALUM-000743,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000744,IND-ALUM-000744,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000745,IND-ALUM-000745,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-000746,IND-ALUM-000746,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000747,IND-ALUM-000747,6,0,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000748,IND-ALUM-000748,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000749,IND-ALUM-000749,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000750,IND-ALUM-000750,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-000751,IND-ALUM-000751,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-000752,IND-ALUM-000752,6,0,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000753,IND-ALUM-000753,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000754,IND-ALUM-000754,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000755,IND-ALUM-000755,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000756,IND-ALUM-000756,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000757,IND-ALUM-000757,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000758,IND-ALUM-000758,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000759,IND-ALUM-000759,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000760,IND-ALUM-000760,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000761,IND-ALUM-000761,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000762,IND-ALUM-000762,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000763,IND-ALUM-000763,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-000764,IND-ALUM-000764,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000765,IND-ALUM-000765,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000766,IND-ALUM-000766,6,0,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000767,IND-ALUM-000767,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000768,IND-ALUM-000768,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000769,IND-ALUM-000769,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000770,IND-ALUM-000770,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000771,IND-ALUM-000771,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000772,IND-ALUM-000772,6,0,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000773,IND-ALUM-000773,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000774,IND-ALUM-000774,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000775,IND-ALUM-000775,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-000776,IND-ALUM-000776,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000777,IND-ALUM-000777,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000778,IND-ALUM-000778,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000779,IND-ALUM-000779,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000780,IND-ALUM-000780,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000781,IND-ALUM-000781,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000782,IND-ALUM-000782,6,1,Entry-Level,Information Technology & SaaS,0,indian_academic_benchmark
+IND-OUT-000783,IND-ALUM-000783,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000784,IND-ALUM-000784,6,0,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000785,IND-ALUM-000785,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000786,IND-ALUM-000786,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000787,IND-ALUM-000787,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000788,IND-ALUM-000788,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000789,IND-ALUM-000789,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000790,IND-ALUM-000790,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000791,IND-ALUM-000791,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000792,IND-ALUM-000792,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000793,IND-ALUM-000793,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000794,IND-ALUM-000794,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-000795,IND-ALUM-000795,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000796,IND-ALUM-000796,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000797,IND-ALUM-000797,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000798,IND-ALUM-000798,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000799,IND-ALUM-000799,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000800,IND-ALUM-000800,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000801,IND-ALUM-000801,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000802,IND-ALUM-000802,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000803,IND-ALUM-000803,6,1,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-000804,IND-ALUM-000804,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000805,IND-ALUM-000805,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000806,IND-ALUM-000806,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000807,IND-ALUM-000807,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000808,IND-ALUM-000808,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000809,IND-ALUM-000809,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000810,IND-ALUM-000810,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000811,IND-ALUM-000811,6,0,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000812,IND-ALUM-000812,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000813,IND-ALUM-000813,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000814,IND-ALUM-000814,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000815,IND-ALUM-000815,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000816,IND-ALUM-000816,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000817,IND-ALUM-000817,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000818,IND-ALUM-000818,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000819,IND-ALUM-000819,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000820,IND-ALUM-000820,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000821,IND-ALUM-000821,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000822,IND-ALUM-000822,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000823,IND-ALUM-000823,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000824,IND-ALUM-000824,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000825,IND-ALUM-000825,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000826,IND-ALUM-000826,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-000827,IND-ALUM-000827,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000828,IND-ALUM-000828,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-000829,IND-ALUM-000829,6,0,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-000830,IND-ALUM-000830,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000831,IND-ALUM-000831,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000832,IND-ALUM-000832,6,1,Lead/Principal,EdTech & Digital Learning,8,indian_academic_benchmark
+IND-OUT-000833,IND-ALUM-000833,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000834,IND-ALUM-000834,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000835,IND-ALUM-000835,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000836,IND-ALUM-000836,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000837,IND-ALUM-000837,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000838,IND-ALUM-000838,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000839,IND-ALUM-000839,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000840,IND-ALUM-000840,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000841,IND-ALUM-000841,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000842,IND-ALUM-000842,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000843,IND-ALUM-000843,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000844,IND-ALUM-000844,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000845,IND-ALUM-000845,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000846,IND-ALUM-000846,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000847,IND-ALUM-000847,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000848,IND-ALUM-000848,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000849,IND-ALUM-000849,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000850,IND-ALUM-000850,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000851,IND-ALUM-000851,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-000852,IND-ALUM-000852,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000853,IND-ALUM-000853,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000854,IND-ALUM-000854,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000855,IND-ALUM-000855,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000856,IND-ALUM-000856,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-000857,IND-ALUM-000857,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000858,IND-ALUM-000858,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000859,IND-ALUM-000859,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000860,IND-ALUM-000860,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000861,IND-ALUM-000861,6,1,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-000862,IND-ALUM-000862,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000863,IND-ALUM-000863,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000864,IND-ALUM-000864,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000865,IND-ALUM-000865,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000866,IND-ALUM-000866,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000867,IND-ALUM-000867,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-000868,IND-ALUM-000868,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000869,IND-ALUM-000869,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000870,IND-ALUM-000870,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000871,IND-ALUM-000871,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000872,IND-ALUM-000872,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000873,IND-ALUM-000873,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000874,IND-ALUM-000874,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000875,IND-ALUM-000875,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000876,IND-ALUM-000876,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000877,IND-ALUM-000877,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000878,IND-ALUM-000878,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000879,IND-ALUM-000879,6,0,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-000880,IND-ALUM-000880,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000881,IND-ALUM-000881,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000882,IND-ALUM-000882,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000883,IND-ALUM-000883,6,0,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000884,IND-ALUM-000884,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000885,IND-ALUM-000885,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000886,IND-ALUM-000886,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000887,IND-ALUM-000887,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000888,IND-ALUM-000888,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000889,IND-ALUM-000889,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000890,IND-ALUM-000890,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000891,IND-ALUM-000891,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000892,IND-ALUM-000892,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000893,IND-ALUM-000893,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000894,IND-ALUM-000894,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000895,IND-ALUM-000895,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000896,IND-ALUM-000896,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000897,IND-ALUM-000897,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-000898,IND-ALUM-000898,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000899,IND-ALUM-000899,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000900,IND-ALUM-000900,6,1,Lead/Principal,Healthcare & HealthTech,9,indian_academic_benchmark
+IND-OUT-000901,IND-ALUM-000901,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-000902,IND-ALUM-000902,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000903,IND-ALUM-000903,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000904,IND-ALUM-000904,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000905,IND-ALUM-000905,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-000906,IND-ALUM-000906,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000907,IND-ALUM-000907,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000908,IND-ALUM-000908,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000909,IND-ALUM-000909,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000910,IND-ALUM-000910,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000911,IND-ALUM-000911,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-000912,IND-ALUM-000912,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000913,IND-ALUM-000913,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000914,IND-ALUM-000914,6,1,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-000915,IND-ALUM-000915,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000916,IND-ALUM-000916,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-000917,IND-ALUM-000917,6,1,Lead/Principal,Banking & FinTech (BFSI),8,indian_academic_benchmark
+IND-OUT-000918,IND-ALUM-000918,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000919,IND-ALUM-000919,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000920,IND-ALUM-000920,6,1,Lead/Principal,Information Technology & SaaS,9,indian_academic_benchmark
+IND-OUT-000921,IND-ALUM-000921,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000922,IND-ALUM-000922,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000923,IND-ALUM-000923,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-000924,IND-ALUM-000924,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-000925,IND-ALUM-000925,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000926,IND-ALUM-000926,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000927,IND-ALUM-000927,6,1,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-000928,IND-ALUM-000928,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000929,IND-ALUM-000929,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-000930,IND-ALUM-000930,6,0,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-000931,IND-ALUM-000931,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000932,IND-ALUM-000932,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000933,IND-ALUM-000933,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-000934,IND-ALUM-000934,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000935,IND-ALUM-000935,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000936,IND-ALUM-000936,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-000937,IND-ALUM-000937,6,0,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000938,IND-ALUM-000938,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-000939,IND-ALUM-000939,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000940,IND-ALUM-000940,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000941,IND-ALUM-000941,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000942,IND-ALUM-000942,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-000943,IND-ALUM-000943,6,0,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-000944,IND-ALUM-000944,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000945,IND-ALUM-000945,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-000946,IND-ALUM-000946,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000947,IND-ALUM-000947,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000948,IND-ALUM-000948,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-000949,IND-ALUM-000949,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-000950,IND-ALUM-000950,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-000951,IND-ALUM-000951,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000952,IND-ALUM-000952,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-000953,IND-ALUM-000953,6,1,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-000954,IND-ALUM-000954,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000955,IND-ALUM-000955,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-000956,IND-ALUM-000956,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000957,IND-ALUM-000957,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000958,IND-ALUM-000958,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-000959,IND-ALUM-000959,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-000960,IND-ALUM-000960,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-000961,IND-ALUM-000961,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000962,IND-ALUM-000962,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-000963,IND-ALUM-000963,6,0,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-000964,IND-ALUM-000964,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000965,IND-ALUM-000965,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-000966,IND-ALUM-000966,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000967,IND-ALUM-000967,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-000968,IND-ALUM-000968,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-000969,IND-ALUM-000969,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-000970,IND-ALUM-000970,6,0,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000971,IND-ALUM-000971,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000972,IND-ALUM-000972,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000973,IND-ALUM-000973,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-000974,IND-ALUM-000974,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-000975,IND-ALUM-000975,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000976,IND-ALUM-000976,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-000977,IND-ALUM-000977,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-000978,IND-ALUM-000978,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000979,IND-ALUM-000979,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-000980,IND-ALUM-000980,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000981,IND-ALUM-000981,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-000982,IND-ALUM-000982,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-000983,IND-ALUM-000983,6,0,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-000984,IND-ALUM-000984,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-000985,IND-ALUM-000985,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-000986,IND-ALUM-000986,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-000987,IND-ALUM-000987,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-000988,IND-ALUM-000988,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-000989,IND-ALUM-000989,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-000990,IND-ALUM-000990,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-000991,IND-ALUM-000991,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-000992,IND-ALUM-000992,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-000993,IND-ALUM-000993,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000994,IND-ALUM-000994,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-000995,IND-ALUM-000995,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-000996,IND-ALUM-000996,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-000997,IND-ALUM-000997,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-000998,IND-ALUM-000998,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-000999,IND-ALUM-000999,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001000,IND-ALUM-001000,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001001,IND-ALUM-001001,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001002,IND-ALUM-001002,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001003,IND-ALUM-001003,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001004,IND-ALUM-001004,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001005,IND-ALUM-001005,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001006,IND-ALUM-001006,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001007,IND-ALUM-001007,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001008,IND-ALUM-001008,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001009,IND-ALUM-001009,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001010,IND-ALUM-001010,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001011,IND-ALUM-001011,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001012,IND-ALUM-001012,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001013,IND-ALUM-001013,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001014,IND-ALUM-001014,6,1,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-001015,IND-ALUM-001015,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001016,IND-ALUM-001016,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001017,IND-ALUM-001017,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001018,IND-ALUM-001018,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001019,IND-ALUM-001019,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001020,IND-ALUM-001020,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001021,IND-ALUM-001021,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001022,IND-ALUM-001022,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001023,IND-ALUM-001023,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001024,IND-ALUM-001024,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001025,IND-ALUM-001025,6,0,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001026,IND-ALUM-001026,6,0,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001027,IND-ALUM-001027,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001028,IND-ALUM-001028,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001029,IND-ALUM-001029,6,1,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-001030,IND-ALUM-001030,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001031,IND-ALUM-001031,6,0,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-001032,IND-ALUM-001032,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001033,IND-ALUM-001033,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001034,IND-ALUM-001034,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001035,IND-ALUM-001035,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001036,IND-ALUM-001036,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001037,IND-ALUM-001037,6,0,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001038,IND-ALUM-001038,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001039,IND-ALUM-001039,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001040,IND-ALUM-001040,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001041,IND-ALUM-001041,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001042,IND-ALUM-001042,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001043,IND-ALUM-001043,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001044,IND-ALUM-001044,6,0,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001045,IND-ALUM-001045,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001046,IND-ALUM-001046,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001047,IND-ALUM-001047,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001048,IND-ALUM-001048,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001049,IND-ALUM-001049,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001050,IND-ALUM-001050,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001051,IND-ALUM-001051,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001052,IND-ALUM-001052,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001053,IND-ALUM-001053,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001054,IND-ALUM-001054,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001055,IND-ALUM-001055,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001056,IND-ALUM-001056,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001057,IND-ALUM-001057,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001058,IND-ALUM-001058,6,0,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001059,IND-ALUM-001059,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001060,IND-ALUM-001060,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001061,IND-ALUM-001061,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001062,IND-ALUM-001062,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001063,IND-ALUM-001063,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001064,IND-ALUM-001064,6,1,Lead/Principal,EdTech & Digital Learning,8,indian_academic_benchmark
+IND-OUT-001065,IND-ALUM-001065,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001066,IND-ALUM-001066,6,1,Entry-Level,Consulting & IT Services,0,indian_academic_benchmark
+IND-OUT-001067,IND-ALUM-001067,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001068,IND-ALUM-001068,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001069,IND-ALUM-001069,6,0,Lead/Principal,EdTech & Digital Learning,8,indian_academic_benchmark
+IND-OUT-001070,IND-ALUM-001070,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001071,IND-ALUM-001071,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001072,IND-ALUM-001072,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001073,IND-ALUM-001073,6,0,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-001074,IND-ALUM-001074,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001075,IND-ALUM-001075,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001076,IND-ALUM-001076,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001077,IND-ALUM-001077,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001078,IND-ALUM-001078,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001079,IND-ALUM-001079,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001080,IND-ALUM-001080,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001081,IND-ALUM-001081,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001082,IND-ALUM-001082,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001083,IND-ALUM-001083,6,1,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-001084,IND-ALUM-001084,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001085,IND-ALUM-001085,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001086,IND-ALUM-001086,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001087,IND-ALUM-001087,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001088,IND-ALUM-001088,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001089,IND-ALUM-001089,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001090,IND-ALUM-001090,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001091,IND-ALUM-001091,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001092,IND-ALUM-001092,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001093,IND-ALUM-001093,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001094,IND-ALUM-001094,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001095,IND-ALUM-001095,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001096,IND-ALUM-001096,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001097,IND-ALUM-001097,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001098,IND-ALUM-001098,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001099,IND-ALUM-001099,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001100,IND-ALUM-001100,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001101,IND-ALUM-001101,6,1,Entry-Level,Information Technology & SaaS,0,indian_academic_benchmark
+IND-OUT-001102,IND-ALUM-001102,6,0,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001103,IND-ALUM-001103,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001104,IND-ALUM-001104,6,1,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-001105,IND-ALUM-001105,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001106,IND-ALUM-001106,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001107,IND-ALUM-001107,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001108,IND-ALUM-001108,6,1,Lead/Principal,EdTech & Digital Learning,10,indian_academic_benchmark
+IND-OUT-001109,IND-ALUM-001109,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001110,IND-ALUM-001110,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-001111,IND-ALUM-001111,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001112,IND-ALUM-001112,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-001113,IND-ALUM-001113,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-001114,IND-ALUM-001114,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001115,IND-ALUM-001115,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001116,IND-ALUM-001116,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001117,IND-ALUM-001117,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-001118,IND-ALUM-001118,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001119,IND-ALUM-001119,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001120,IND-ALUM-001120,6,0,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-001121,IND-ALUM-001121,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001122,IND-ALUM-001122,6,0,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001123,IND-ALUM-001123,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001124,IND-ALUM-001124,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001125,IND-ALUM-001125,6,0,Lead/Principal,Banking & FinTech (BFSI),8,indian_academic_benchmark
+IND-OUT-001126,IND-ALUM-001126,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001127,IND-ALUM-001127,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001128,IND-ALUM-001128,6,0,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-001129,IND-ALUM-001129,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001130,IND-ALUM-001130,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001131,IND-ALUM-001131,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001132,IND-ALUM-001132,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001133,IND-ALUM-001133,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001134,IND-ALUM-001134,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001135,IND-ALUM-001135,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001136,IND-ALUM-001136,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001137,IND-ALUM-001137,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-001138,IND-ALUM-001138,6,1,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001139,IND-ALUM-001139,6,0,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001140,IND-ALUM-001140,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001141,IND-ALUM-001141,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001142,IND-ALUM-001142,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001143,IND-ALUM-001143,6,0,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-001144,IND-ALUM-001144,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001145,IND-ALUM-001145,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001146,IND-ALUM-001146,6,0,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-001147,IND-ALUM-001147,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001148,IND-ALUM-001148,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001149,IND-ALUM-001149,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001150,IND-ALUM-001150,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001151,IND-ALUM-001151,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001152,IND-ALUM-001152,6,0,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001153,IND-ALUM-001153,6,0,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-001154,IND-ALUM-001154,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001155,IND-ALUM-001155,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001156,IND-ALUM-001156,6,0,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-001157,IND-ALUM-001157,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001158,IND-ALUM-001158,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001159,IND-ALUM-001159,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001160,IND-ALUM-001160,6,0,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-001161,IND-ALUM-001161,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001162,IND-ALUM-001162,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001163,IND-ALUM-001163,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001164,IND-ALUM-001164,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001165,IND-ALUM-001165,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001166,IND-ALUM-001166,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001167,IND-ALUM-001167,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001168,IND-ALUM-001168,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001169,IND-ALUM-001169,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001170,IND-ALUM-001170,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001171,IND-ALUM-001171,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001172,IND-ALUM-001172,6,1,Entry-Level,Consulting & IT Services,0,indian_academic_benchmark
+IND-OUT-001173,IND-ALUM-001173,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001174,IND-ALUM-001174,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001175,IND-ALUM-001175,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001176,IND-ALUM-001176,6,0,Entry-Level,Consulting & IT Services,0,indian_academic_benchmark
+IND-OUT-001177,IND-ALUM-001177,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001178,IND-ALUM-001178,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001179,IND-ALUM-001179,6,1,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-001180,IND-ALUM-001180,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001181,IND-ALUM-001181,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001182,IND-ALUM-001182,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001183,IND-ALUM-001183,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001184,IND-ALUM-001184,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001185,IND-ALUM-001185,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001186,IND-ALUM-001186,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001187,IND-ALUM-001187,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001188,IND-ALUM-001188,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001189,IND-ALUM-001189,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001190,IND-ALUM-001190,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001191,IND-ALUM-001191,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001192,IND-ALUM-001192,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001193,IND-ALUM-001193,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-001194,IND-ALUM-001194,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001195,IND-ALUM-001195,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001196,IND-ALUM-001196,6,0,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-001197,IND-ALUM-001197,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001198,IND-ALUM-001198,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001199,IND-ALUM-001199,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001200,IND-ALUM-001200,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001201,IND-ALUM-001201,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001202,IND-ALUM-001202,6,0,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001203,IND-ALUM-001203,6,1,Entry-Level,Banking & FinTech (BFSI),0,indian_academic_benchmark
+IND-OUT-001204,IND-ALUM-001204,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001205,IND-ALUM-001205,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001206,IND-ALUM-001206,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001207,IND-ALUM-001207,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001208,IND-ALUM-001208,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001209,IND-ALUM-001209,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-001210,IND-ALUM-001210,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001211,IND-ALUM-001211,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001212,IND-ALUM-001212,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001213,IND-ALUM-001213,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001214,IND-ALUM-001214,6,1,Lead/Principal,Telecommunications & 5G,9,indian_academic_benchmark
+IND-OUT-001215,IND-ALUM-001215,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001216,IND-ALUM-001216,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001217,IND-ALUM-001217,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001218,IND-ALUM-001218,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001219,IND-ALUM-001219,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001220,IND-ALUM-001220,6,0,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001221,IND-ALUM-001221,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001222,IND-ALUM-001222,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001223,IND-ALUM-001223,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001224,IND-ALUM-001224,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001225,IND-ALUM-001225,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001226,IND-ALUM-001226,6,0,Lead/Principal,Banking & FinTech (BFSI),8,indian_academic_benchmark
+IND-OUT-001227,IND-ALUM-001227,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001228,IND-ALUM-001228,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001229,IND-ALUM-001229,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001230,IND-ALUM-001230,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001231,IND-ALUM-001231,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001232,IND-ALUM-001232,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001233,IND-ALUM-001233,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001234,IND-ALUM-001234,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001235,IND-ALUM-001235,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001236,IND-ALUM-001236,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001237,IND-ALUM-001237,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001238,IND-ALUM-001238,6,0,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001239,IND-ALUM-001239,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001240,IND-ALUM-001240,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001241,IND-ALUM-001241,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001242,IND-ALUM-001242,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001243,IND-ALUM-001243,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001244,IND-ALUM-001244,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001245,IND-ALUM-001245,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001246,IND-ALUM-001246,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001247,IND-ALUM-001247,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001248,IND-ALUM-001248,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001249,IND-ALUM-001249,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001250,IND-ALUM-001250,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001251,IND-ALUM-001251,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001252,IND-ALUM-001252,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001253,IND-ALUM-001253,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001254,IND-ALUM-001254,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-001255,IND-ALUM-001255,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001256,IND-ALUM-001256,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001257,IND-ALUM-001257,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001258,IND-ALUM-001258,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-001259,IND-ALUM-001259,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001260,IND-ALUM-001260,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001261,IND-ALUM-001261,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001262,IND-ALUM-001262,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001263,IND-ALUM-001263,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001264,IND-ALUM-001264,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001265,IND-ALUM-001265,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001266,IND-ALUM-001266,6,0,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001267,IND-ALUM-001267,6,1,Entry-Level,EdTech & Digital Learning,0,indian_academic_benchmark
+IND-OUT-001268,IND-ALUM-001268,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001269,IND-ALUM-001269,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001270,IND-ALUM-001270,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001271,IND-ALUM-001271,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001272,IND-ALUM-001272,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001273,IND-ALUM-001273,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-001274,IND-ALUM-001274,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001275,IND-ALUM-001275,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001276,IND-ALUM-001276,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001277,IND-ALUM-001277,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-001278,IND-ALUM-001278,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001279,IND-ALUM-001279,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001280,IND-ALUM-001280,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001281,IND-ALUM-001281,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001282,IND-ALUM-001282,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001283,IND-ALUM-001283,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001284,IND-ALUM-001284,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001285,IND-ALUM-001285,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001286,IND-ALUM-001286,6,1,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-001287,IND-ALUM-001287,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001288,IND-ALUM-001288,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001289,IND-ALUM-001289,6,1,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-001290,IND-ALUM-001290,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001291,IND-ALUM-001291,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001292,IND-ALUM-001292,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001293,IND-ALUM-001293,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001294,IND-ALUM-001294,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001295,IND-ALUM-001295,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001296,IND-ALUM-001296,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001297,IND-ALUM-001297,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001298,IND-ALUM-001298,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001299,IND-ALUM-001299,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001300,IND-ALUM-001300,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001301,IND-ALUM-001301,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001302,IND-ALUM-001302,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001303,IND-ALUM-001303,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001304,IND-ALUM-001304,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-001305,IND-ALUM-001305,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001306,IND-ALUM-001306,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001307,IND-ALUM-001307,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001308,IND-ALUM-001308,6,0,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-001309,IND-ALUM-001309,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001310,IND-ALUM-001310,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001311,IND-ALUM-001311,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001312,IND-ALUM-001312,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001313,IND-ALUM-001313,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001314,IND-ALUM-001314,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001315,IND-ALUM-001315,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001316,IND-ALUM-001316,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001317,IND-ALUM-001317,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001318,IND-ALUM-001318,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-001319,IND-ALUM-001319,6,1,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-001320,IND-ALUM-001320,6,0,Entry-Level,Information Technology & SaaS,0,indian_academic_benchmark
+IND-OUT-001321,IND-ALUM-001321,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001322,IND-ALUM-001322,6,0,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-001323,IND-ALUM-001323,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001324,IND-ALUM-001324,6,0,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001325,IND-ALUM-001325,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001326,IND-ALUM-001326,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001327,IND-ALUM-001327,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001328,IND-ALUM-001328,6,0,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001329,IND-ALUM-001329,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001330,IND-ALUM-001330,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001331,IND-ALUM-001331,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001332,IND-ALUM-001332,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001333,IND-ALUM-001333,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001334,IND-ALUM-001334,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-001335,IND-ALUM-001335,6,0,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001336,IND-ALUM-001336,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001337,IND-ALUM-001337,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001338,IND-ALUM-001338,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001339,IND-ALUM-001339,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001340,IND-ALUM-001340,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-001341,IND-ALUM-001341,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001342,IND-ALUM-001342,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001343,IND-ALUM-001343,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001344,IND-ALUM-001344,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001345,IND-ALUM-001345,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001346,IND-ALUM-001346,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001347,IND-ALUM-001347,6,0,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001348,IND-ALUM-001348,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001349,IND-ALUM-001349,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001350,IND-ALUM-001350,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001351,IND-ALUM-001351,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001352,IND-ALUM-001352,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-001353,IND-ALUM-001353,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001354,IND-ALUM-001354,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001355,IND-ALUM-001355,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001356,IND-ALUM-001356,6,0,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-001357,IND-ALUM-001357,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001358,IND-ALUM-001358,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001359,IND-ALUM-001359,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001360,IND-ALUM-001360,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001361,IND-ALUM-001361,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001362,IND-ALUM-001362,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001363,IND-ALUM-001363,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001364,IND-ALUM-001364,6,0,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001365,IND-ALUM-001365,6,0,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001366,IND-ALUM-001366,6,0,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001367,IND-ALUM-001367,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001368,IND-ALUM-001368,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001369,IND-ALUM-001369,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001370,IND-ALUM-001370,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001371,IND-ALUM-001371,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001372,IND-ALUM-001372,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001373,IND-ALUM-001373,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001374,IND-ALUM-001374,6,0,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-001375,IND-ALUM-001375,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-001376,IND-ALUM-001376,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001377,IND-ALUM-001377,6,1,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-001378,IND-ALUM-001378,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001379,IND-ALUM-001379,6,0,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-001380,IND-ALUM-001380,6,1,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001381,IND-ALUM-001381,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001382,IND-ALUM-001382,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001383,IND-ALUM-001383,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001384,IND-ALUM-001384,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001385,IND-ALUM-001385,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001386,IND-ALUM-001386,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001387,IND-ALUM-001387,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001388,IND-ALUM-001388,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001389,IND-ALUM-001389,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001390,IND-ALUM-001390,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-001391,IND-ALUM-001391,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001392,IND-ALUM-001392,6,1,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001393,IND-ALUM-001393,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001394,IND-ALUM-001394,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001395,IND-ALUM-001395,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001396,IND-ALUM-001396,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001397,IND-ALUM-001397,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001398,IND-ALUM-001398,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001399,IND-ALUM-001399,6,0,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-001400,IND-ALUM-001400,6,0,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001401,IND-ALUM-001401,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-001402,IND-ALUM-001402,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001403,IND-ALUM-001403,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001404,IND-ALUM-001404,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001405,IND-ALUM-001405,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001406,IND-ALUM-001406,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001407,IND-ALUM-001407,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001408,IND-ALUM-001408,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001409,IND-ALUM-001409,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001410,IND-ALUM-001410,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001411,IND-ALUM-001411,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001412,IND-ALUM-001412,6,0,Entry-Level,Banking & FinTech (BFSI),0,indian_academic_benchmark
+IND-OUT-001413,IND-ALUM-001413,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001414,IND-ALUM-001414,6,0,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001415,IND-ALUM-001415,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001416,IND-ALUM-001416,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001417,IND-ALUM-001417,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001418,IND-ALUM-001418,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001419,IND-ALUM-001419,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001420,IND-ALUM-001420,6,0,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001421,IND-ALUM-001421,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001422,IND-ALUM-001422,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001423,IND-ALUM-001423,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001424,IND-ALUM-001424,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001425,IND-ALUM-001425,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001426,IND-ALUM-001426,6,0,Lead/Principal,Banking & FinTech (BFSI),9,indian_academic_benchmark
+IND-OUT-001427,IND-ALUM-001427,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001428,IND-ALUM-001428,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001429,IND-ALUM-001429,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001430,IND-ALUM-001430,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001431,IND-ALUM-001431,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001432,IND-ALUM-001432,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001433,IND-ALUM-001433,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001434,IND-ALUM-001434,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001435,IND-ALUM-001435,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001436,IND-ALUM-001436,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001437,IND-ALUM-001437,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001438,IND-ALUM-001438,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-001439,IND-ALUM-001439,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001440,IND-ALUM-001440,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001441,IND-ALUM-001441,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001442,IND-ALUM-001442,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-001443,IND-ALUM-001443,6,0,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001444,IND-ALUM-001444,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001445,IND-ALUM-001445,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001446,IND-ALUM-001446,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001447,IND-ALUM-001447,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001448,IND-ALUM-001448,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001449,IND-ALUM-001449,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001450,IND-ALUM-001450,6,0,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001451,IND-ALUM-001451,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001452,IND-ALUM-001452,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001453,IND-ALUM-001453,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001454,IND-ALUM-001454,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001455,IND-ALUM-001455,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001456,IND-ALUM-001456,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001457,IND-ALUM-001457,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001458,IND-ALUM-001458,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001459,IND-ALUM-001459,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001460,IND-ALUM-001460,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001461,IND-ALUM-001461,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001462,IND-ALUM-001462,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-001463,IND-ALUM-001463,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001464,IND-ALUM-001464,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001465,IND-ALUM-001465,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001466,IND-ALUM-001466,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001467,IND-ALUM-001467,6,0,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001468,IND-ALUM-001468,6,0,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-001469,IND-ALUM-001469,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001470,IND-ALUM-001470,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001471,IND-ALUM-001471,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001472,IND-ALUM-001472,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001473,IND-ALUM-001473,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001474,IND-ALUM-001474,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001475,IND-ALUM-001475,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001476,IND-ALUM-001476,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001477,IND-ALUM-001477,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001478,IND-ALUM-001478,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001479,IND-ALUM-001479,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001480,IND-ALUM-001480,6,0,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001481,IND-ALUM-001481,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001482,IND-ALUM-001482,6,0,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-001483,IND-ALUM-001483,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001484,IND-ALUM-001484,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001485,IND-ALUM-001485,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001486,IND-ALUM-001486,6,0,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001487,IND-ALUM-001487,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-001488,IND-ALUM-001488,6,0,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001489,IND-ALUM-001489,6,0,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001490,IND-ALUM-001490,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001491,IND-ALUM-001491,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001492,IND-ALUM-001492,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001493,IND-ALUM-001493,6,0,Lead/Principal,Information Technology & SaaS,9,indian_academic_benchmark
+IND-OUT-001494,IND-ALUM-001494,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001495,IND-ALUM-001495,6,0,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001496,IND-ALUM-001496,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001497,IND-ALUM-001497,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001498,IND-ALUM-001498,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001499,IND-ALUM-001499,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001500,IND-ALUM-001500,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001501,IND-ALUM-001501,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001502,IND-ALUM-001502,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001503,IND-ALUM-001503,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001504,IND-ALUM-001504,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001505,IND-ALUM-001505,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001506,IND-ALUM-001506,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001507,IND-ALUM-001507,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001508,IND-ALUM-001508,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001509,IND-ALUM-001509,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001510,IND-ALUM-001510,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-001511,IND-ALUM-001511,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001512,IND-ALUM-001512,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001513,IND-ALUM-001513,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001514,IND-ALUM-001514,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001515,IND-ALUM-001515,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001516,IND-ALUM-001516,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001517,IND-ALUM-001517,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001518,IND-ALUM-001518,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001519,IND-ALUM-001519,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001520,IND-ALUM-001520,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001521,IND-ALUM-001521,6,1,Entry-Level,Automotive & EV Systems,0,indian_academic_benchmark
+IND-OUT-001522,IND-ALUM-001522,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001523,IND-ALUM-001523,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001524,IND-ALUM-001524,6,0,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-001525,IND-ALUM-001525,6,1,Lead/Principal,Banking & FinTech (BFSI),8,indian_academic_benchmark
+IND-OUT-001526,IND-ALUM-001526,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001527,IND-ALUM-001527,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001528,IND-ALUM-001528,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001529,IND-ALUM-001529,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001530,IND-ALUM-001530,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001531,IND-ALUM-001531,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001532,IND-ALUM-001532,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001533,IND-ALUM-001533,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001534,IND-ALUM-001534,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001535,IND-ALUM-001535,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001536,IND-ALUM-001536,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001537,IND-ALUM-001537,6,1,Lead/Principal,EdTech & Digital Learning,8,indian_academic_benchmark
+IND-OUT-001538,IND-ALUM-001538,6,0,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-001539,IND-ALUM-001539,6,0,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001540,IND-ALUM-001540,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001541,IND-ALUM-001541,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-001542,IND-ALUM-001542,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001543,IND-ALUM-001543,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001544,IND-ALUM-001544,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001545,IND-ALUM-001545,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001546,IND-ALUM-001546,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001547,IND-ALUM-001547,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001548,IND-ALUM-001548,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001549,IND-ALUM-001549,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-001550,IND-ALUM-001550,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001551,IND-ALUM-001551,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001552,IND-ALUM-001552,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001553,IND-ALUM-001553,6,1,Lead/Principal,Automotive & EV Systems,8,indian_academic_benchmark
+IND-OUT-001554,IND-ALUM-001554,6,1,Entry-Level,Consulting & IT Services,0,indian_academic_benchmark
+IND-OUT-001555,IND-ALUM-001555,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001556,IND-ALUM-001556,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001557,IND-ALUM-001557,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001558,IND-ALUM-001558,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001559,IND-ALUM-001559,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001560,IND-ALUM-001560,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001561,IND-ALUM-001561,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001562,IND-ALUM-001562,6,0,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001563,IND-ALUM-001563,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001564,IND-ALUM-001564,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001565,IND-ALUM-001565,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001566,IND-ALUM-001566,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001567,IND-ALUM-001567,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-001568,IND-ALUM-001568,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001569,IND-ALUM-001569,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001570,IND-ALUM-001570,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001571,IND-ALUM-001571,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001572,IND-ALUM-001572,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001573,IND-ALUM-001573,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001574,IND-ALUM-001574,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001575,IND-ALUM-001575,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001576,IND-ALUM-001576,6,1,Entry-Level,Healthcare & HealthTech,0,indian_academic_benchmark
+IND-OUT-001577,IND-ALUM-001577,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001578,IND-ALUM-001578,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001579,IND-ALUM-001579,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001580,IND-ALUM-001580,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001581,IND-ALUM-001581,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001582,IND-ALUM-001582,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001583,IND-ALUM-001583,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001584,IND-ALUM-001584,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001585,IND-ALUM-001585,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001586,IND-ALUM-001586,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001587,IND-ALUM-001587,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001588,IND-ALUM-001588,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001589,IND-ALUM-001589,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001590,IND-ALUM-001590,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001591,IND-ALUM-001591,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001592,IND-ALUM-001592,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001593,IND-ALUM-001593,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001594,IND-ALUM-001594,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001595,IND-ALUM-001595,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001596,IND-ALUM-001596,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001597,IND-ALUM-001597,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001598,IND-ALUM-001598,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001599,IND-ALUM-001599,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001600,IND-ALUM-001600,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001601,IND-ALUM-001601,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001602,IND-ALUM-001602,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001603,IND-ALUM-001603,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001604,IND-ALUM-001604,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001605,IND-ALUM-001605,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-001606,IND-ALUM-001606,6,1,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-001607,IND-ALUM-001607,6,0,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-001608,IND-ALUM-001608,6,0,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001609,IND-ALUM-001609,6,0,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001610,IND-ALUM-001610,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001611,IND-ALUM-001611,6,0,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001612,IND-ALUM-001612,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-001613,IND-ALUM-001613,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001614,IND-ALUM-001614,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001615,IND-ALUM-001615,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001616,IND-ALUM-001616,6,0,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001617,IND-ALUM-001617,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001618,IND-ALUM-001618,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001619,IND-ALUM-001619,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001620,IND-ALUM-001620,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001621,IND-ALUM-001621,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001622,IND-ALUM-001622,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001623,IND-ALUM-001623,6,0,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001624,IND-ALUM-001624,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-001625,IND-ALUM-001625,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001626,IND-ALUM-001626,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001627,IND-ALUM-001627,6,0,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001628,IND-ALUM-001628,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001629,IND-ALUM-001629,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001630,IND-ALUM-001630,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001631,IND-ALUM-001631,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-001632,IND-ALUM-001632,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001633,IND-ALUM-001633,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001634,IND-ALUM-001634,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001635,IND-ALUM-001635,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001636,IND-ALUM-001636,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001637,IND-ALUM-001637,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001638,IND-ALUM-001638,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001639,IND-ALUM-001639,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001640,IND-ALUM-001640,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001641,IND-ALUM-001641,6,0,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-001642,IND-ALUM-001642,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001643,IND-ALUM-001643,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-001644,IND-ALUM-001644,6,1,Senior,Information Technology & SaaS,7,indian_academic_benchmark
+IND-OUT-001645,IND-ALUM-001645,6,1,Lead/Principal,Banking & FinTech (BFSI),8,indian_academic_benchmark
+IND-OUT-001646,IND-ALUM-001646,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001647,IND-ALUM-001647,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001648,IND-ALUM-001648,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001649,IND-ALUM-001649,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001650,IND-ALUM-001650,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001651,IND-ALUM-001651,6,1,Lead/Principal,E-Commerce & Quick Commerce,8,indian_academic_benchmark
+IND-OUT-001652,IND-ALUM-001652,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001653,IND-ALUM-001653,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001654,IND-ALUM-001654,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001655,IND-ALUM-001655,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-001656,IND-ALUM-001656,6,0,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001657,IND-ALUM-001657,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-001658,IND-ALUM-001658,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001659,IND-ALUM-001659,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001660,IND-ALUM-001660,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001661,IND-ALUM-001661,6,0,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001662,IND-ALUM-001662,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001663,IND-ALUM-001663,6,1,Lead/Principal,Information Technology & SaaS,8,indian_academic_benchmark
+IND-OUT-001664,IND-ALUM-001664,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001665,IND-ALUM-001665,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001666,IND-ALUM-001666,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001667,IND-ALUM-001667,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001668,IND-ALUM-001668,6,0,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001669,IND-ALUM-001669,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001670,IND-ALUM-001670,6,0,Entry-Level,Consulting & IT Services,1,indian_academic_benchmark
+IND-OUT-001671,IND-ALUM-001671,6,0,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-001672,IND-ALUM-001672,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001673,IND-ALUM-001673,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001674,IND-ALUM-001674,6,1,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-001675,IND-ALUM-001675,6,1,Entry-Level,E-Commerce & Quick Commerce,0,indian_academic_benchmark
+IND-OUT-001676,IND-ALUM-001676,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001677,IND-ALUM-001677,6,1,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-001678,IND-ALUM-001678,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001679,IND-ALUM-001679,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001680,IND-ALUM-001680,6,0,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-001681,IND-ALUM-001681,6,1,Senior,Consulting & IT Services,6,indian_academic_benchmark
+IND-OUT-001682,IND-ALUM-001682,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001683,IND-ALUM-001683,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001684,IND-ALUM-001684,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001685,IND-ALUM-001685,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001686,IND-ALUM-001686,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001687,IND-ALUM-001687,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001688,IND-ALUM-001688,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001689,IND-ALUM-001689,6,0,Entry-Level,EdTech & Digital Learning,0,indian_academic_benchmark
+IND-OUT-001690,IND-ALUM-001690,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001691,IND-ALUM-001691,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001692,IND-ALUM-001692,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001693,IND-ALUM-001693,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001694,IND-ALUM-001694,6,0,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001695,IND-ALUM-001695,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001696,IND-ALUM-001696,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001697,IND-ALUM-001697,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001698,IND-ALUM-001698,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001699,IND-ALUM-001699,6,1,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-001700,IND-ALUM-001700,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001701,IND-ALUM-001701,6,1,Lead/Principal,Healthcare & HealthTech,9,indian_academic_benchmark
+IND-OUT-001702,IND-ALUM-001702,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001703,IND-ALUM-001703,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001704,IND-ALUM-001704,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001705,IND-ALUM-001705,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001706,IND-ALUM-001706,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001707,IND-ALUM-001707,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001708,IND-ALUM-001708,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001709,IND-ALUM-001709,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001710,IND-ALUM-001710,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001711,IND-ALUM-001711,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001712,IND-ALUM-001712,6,1,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001713,IND-ALUM-001713,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001714,IND-ALUM-001714,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001715,IND-ALUM-001715,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001716,IND-ALUM-001716,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-001717,IND-ALUM-001717,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001718,IND-ALUM-001718,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001719,IND-ALUM-001719,6,0,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001720,IND-ALUM-001720,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001721,IND-ALUM-001721,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001722,IND-ALUM-001722,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001723,IND-ALUM-001723,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001724,IND-ALUM-001724,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001725,IND-ALUM-001725,6,0,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001726,IND-ALUM-001726,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001727,IND-ALUM-001727,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001728,IND-ALUM-001728,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001729,IND-ALUM-001729,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001730,IND-ALUM-001730,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001731,IND-ALUM-001731,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001732,IND-ALUM-001732,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001733,IND-ALUM-001733,6,0,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001734,IND-ALUM-001734,6,0,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001735,IND-ALUM-001735,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001736,IND-ALUM-001736,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001737,IND-ALUM-001737,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001738,IND-ALUM-001738,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001739,IND-ALUM-001739,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001740,IND-ALUM-001740,6,0,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001741,IND-ALUM-001741,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001742,IND-ALUM-001742,6,0,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001743,IND-ALUM-001743,6,0,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001744,IND-ALUM-001744,6,0,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001745,IND-ALUM-001745,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001746,IND-ALUM-001746,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001747,IND-ALUM-001747,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-001748,IND-ALUM-001748,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001749,IND-ALUM-001749,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001750,IND-ALUM-001750,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001751,IND-ALUM-001751,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001752,IND-ALUM-001752,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001753,IND-ALUM-001753,6,0,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001754,IND-ALUM-001754,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001755,IND-ALUM-001755,6,1,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001756,IND-ALUM-001756,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-001757,IND-ALUM-001757,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001758,IND-ALUM-001758,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001759,IND-ALUM-001759,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001760,IND-ALUM-001760,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001761,IND-ALUM-001761,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001762,IND-ALUM-001762,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001763,IND-ALUM-001763,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001764,IND-ALUM-001764,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001765,IND-ALUM-001765,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001766,IND-ALUM-001766,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001767,IND-ALUM-001767,6,0,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001768,IND-ALUM-001768,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-001769,IND-ALUM-001769,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001770,IND-ALUM-001770,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001771,IND-ALUM-001771,6,1,Lead/Principal,Automotive & EV Systems,9,indian_academic_benchmark
+IND-OUT-001772,IND-ALUM-001772,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001773,IND-ALUM-001773,6,0,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001774,IND-ALUM-001774,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001775,IND-ALUM-001775,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001776,IND-ALUM-001776,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001777,IND-ALUM-001777,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001778,IND-ALUM-001778,6,0,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001779,IND-ALUM-001779,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001780,IND-ALUM-001780,6,0,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001781,IND-ALUM-001781,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001782,IND-ALUM-001782,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001783,IND-ALUM-001783,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001784,IND-ALUM-001784,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001785,IND-ALUM-001785,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001786,IND-ALUM-001786,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001787,IND-ALUM-001787,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001788,IND-ALUM-001788,6,0,Senior,E-Commerce & Quick Commerce,7,indian_academic_benchmark
+IND-OUT-001789,IND-ALUM-001789,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001790,IND-ALUM-001790,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001791,IND-ALUM-001791,6,0,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001792,IND-ALUM-001792,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001793,IND-ALUM-001793,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001794,IND-ALUM-001794,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001795,IND-ALUM-001795,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001796,IND-ALUM-001796,6,0,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-001797,IND-ALUM-001797,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001798,IND-ALUM-001798,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001799,IND-ALUM-001799,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001800,IND-ALUM-001800,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001801,IND-ALUM-001801,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001802,IND-ALUM-001802,6,0,Lead/Principal,EdTech & Digital Learning,8,indian_academic_benchmark
+IND-OUT-001803,IND-ALUM-001803,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001804,IND-ALUM-001804,6,1,Senior,Healthcare & HealthTech,6,indian_academic_benchmark
+IND-OUT-001805,IND-ALUM-001805,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001806,IND-ALUM-001806,6,0,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001807,IND-ALUM-001807,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001808,IND-ALUM-001808,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001809,IND-ALUM-001809,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001810,IND-ALUM-001810,6,0,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001811,IND-ALUM-001811,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001812,IND-ALUM-001812,6,0,Entry-Level,Information Technology & SaaS,0,indian_academic_benchmark
+IND-OUT-001813,IND-ALUM-001813,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001814,IND-ALUM-001814,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001815,IND-ALUM-001815,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001816,IND-ALUM-001816,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001817,IND-ALUM-001817,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-001818,IND-ALUM-001818,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001819,IND-ALUM-001819,6,1,Senior,Consulting & IT Services,7,indian_academic_benchmark
+IND-OUT-001820,IND-ALUM-001820,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-001821,IND-ALUM-001821,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001822,IND-ALUM-001822,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001823,IND-ALUM-001823,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001824,IND-ALUM-001824,6,0,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001825,IND-ALUM-001825,6,0,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001826,IND-ALUM-001826,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001827,IND-ALUM-001827,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001828,IND-ALUM-001828,6,0,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001829,IND-ALUM-001829,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001830,IND-ALUM-001830,6,0,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-001831,IND-ALUM-001831,6,1,Senior,Consulting & IT Services,5,indian_academic_benchmark
+IND-OUT-001832,IND-ALUM-001832,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001833,IND-ALUM-001833,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001834,IND-ALUM-001834,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001835,IND-ALUM-001835,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001836,IND-ALUM-001836,6,0,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001837,IND-ALUM-001837,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001838,IND-ALUM-001838,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-001839,IND-ALUM-001839,6,0,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001840,IND-ALUM-001840,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001841,IND-ALUM-001841,6,0,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001842,IND-ALUM-001842,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001843,IND-ALUM-001843,6,0,Entry-Level,Healthcare & HealthTech,1,indian_academic_benchmark
+IND-OUT-001844,IND-ALUM-001844,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001845,IND-ALUM-001845,6,1,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001846,IND-ALUM-001846,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001847,IND-ALUM-001847,6,0,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-001848,IND-ALUM-001848,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001849,IND-ALUM-001849,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001850,IND-ALUM-001850,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001851,IND-ALUM-001851,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001852,IND-ALUM-001852,6,0,Entry-Level,Telecommunications & 5G,0,indian_academic_benchmark
+IND-OUT-001853,IND-ALUM-001853,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001854,IND-ALUM-001854,6,0,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001855,IND-ALUM-001855,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001856,IND-ALUM-001856,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001857,IND-ALUM-001857,6,0,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001858,IND-ALUM-001858,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001859,IND-ALUM-001859,6,1,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001860,IND-ALUM-001860,6,1,Mid-Level,Telecommunications & 5G,2,indian_academic_benchmark
+IND-OUT-001861,IND-ALUM-001861,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001862,IND-ALUM-001862,6,0,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001863,IND-ALUM-001863,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001864,IND-ALUM-001864,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-001865,IND-ALUM-001865,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001866,IND-ALUM-001866,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001867,IND-ALUM-001867,6,1,Senior,Information Technology & SaaS,6,indian_academic_benchmark
+IND-OUT-001868,IND-ALUM-001868,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001869,IND-ALUM-001869,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001870,IND-ALUM-001870,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001871,IND-ALUM-001871,6,0,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001872,IND-ALUM-001872,6,1,Senior,EdTech & Digital Learning,6,indian_academic_benchmark
+IND-OUT-001873,IND-ALUM-001873,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001874,IND-ALUM-001874,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001875,IND-ALUM-001875,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001876,IND-ALUM-001876,6,0,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-001877,IND-ALUM-001877,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001878,IND-ALUM-001878,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001879,IND-ALUM-001879,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001880,IND-ALUM-001880,6,1,Senior,Healthcare & HealthTech,5,indian_academic_benchmark
+IND-OUT-001881,IND-ALUM-001881,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001882,IND-ALUM-001882,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001883,IND-ALUM-001883,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001884,IND-ALUM-001884,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001885,IND-ALUM-001885,6,0,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001886,IND-ALUM-001886,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001887,IND-ALUM-001887,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001888,IND-ALUM-001888,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-001889,IND-ALUM-001889,6,1,Senior,Telecommunications & 5G,7,indian_academic_benchmark
+IND-OUT-001890,IND-ALUM-001890,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001891,IND-ALUM-001891,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001892,IND-ALUM-001892,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001893,IND-ALUM-001893,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001894,IND-ALUM-001894,6,0,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001895,IND-ALUM-001895,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001896,IND-ALUM-001896,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001897,IND-ALUM-001897,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001898,IND-ALUM-001898,6,0,Entry-Level,Banking & FinTech (BFSI),1,indian_academic_benchmark
+IND-OUT-001899,IND-ALUM-001899,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001900,IND-ALUM-001900,6,1,Mid-Level,Automotive & EV Systems,2,indian_academic_benchmark
+IND-OUT-001901,IND-ALUM-001901,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001902,IND-ALUM-001902,6,1,Senior,Automotive & EV Systems,6,indian_academic_benchmark
+IND-OUT-001903,IND-ALUM-001903,6,1,Lead/Principal,Telecommunications & 5G,8,indian_academic_benchmark
+IND-OUT-001904,IND-ALUM-001904,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001905,IND-ALUM-001905,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001906,IND-ALUM-001906,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001907,IND-ALUM-001907,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001908,IND-ALUM-001908,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001909,IND-ALUM-001909,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001910,IND-ALUM-001910,6,1,Senior,Automotive & EV Systems,5,indian_academic_benchmark
+IND-OUT-001911,IND-ALUM-001911,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001912,IND-ALUM-001912,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001913,IND-ALUM-001913,6,1,Lead/Principal,Healthcare & HealthTech,8,indian_academic_benchmark
+IND-OUT-001914,IND-ALUM-001914,6,1,Senior,Healthcare & HealthTech,7,indian_academic_benchmark
+IND-OUT-001915,IND-ALUM-001915,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001916,IND-ALUM-001916,6,1,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001917,IND-ALUM-001917,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001918,IND-ALUM-001918,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001919,IND-ALUM-001919,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001920,IND-ALUM-001920,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001921,IND-ALUM-001921,6,0,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001922,IND-ALUM-001922,6,1,Mid-Level,E-Commerce & Quick Commerce,2,indian_academic_benchmark
+IND-OUT-001923,IND-ALUM-001923,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001924,IND-ALUM-001924,6,1,Senior,E-Commerce & Quick Commerce,6,indian_academic_benchmark
+IND-OUT-001925,IND-ALUM-001925,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001926,IND-ALUM-001926,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001927,IND-ALUM-001927,6,1,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001928,IND-ALUM-001928,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001929,IND-ALUM-001929,6,0,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001930,IND-ALUM-001930,6,0,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001931,IND-ALUM-001931,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001932,IND-ALUM-001932,6,1,Entry-Level,Telecommunications & 5G,1,indian_academic_benchmark
+IND-OUT-001933,IND-ALUM-001933,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001934,IND-ALUM-001934,6,1,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001935,IND-ALUM-001935,6,1,Senior,Banking & FinTech (BFSI),6,indian_academic_benchmark
+IND-OUT-001936,IND-ALUM-001936,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001937,IND-ALUM-001937,6,0,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001938,IND-ALUM-001938,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001939,IND-ALUM-001939,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001940,IND-ALUM-001940,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001941,IND-ALUM-001941,6,0,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001942,IND-ALUM-001942,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001943,IND-ALUM-001943,6,1,Mid-Level,Consulting & IT Services,2,indian_academic_benchmark
+IND-OUT-001944,IND-ALUM-001944,6,1,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark
+IND-OUT-001945,IND-ALUM-001945,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001946,IND-ALUM-001946,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001947,IND-ALUM-001947,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001948,IND-ALUM-001948,6,0,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001949,IND-ALUM-001949,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001950,IND-ALUM-001950,6,0,Senior,Automotive & EV Systems,7,indian_academic_benchmark
+IND-OUT-001951,IND-ALUM-001951,6,1,Mid-Level,Healthcare & HealthTech,2,indian_academic_benchmark
+IND-OUT-001952,IND-ALUM-001952,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001953,IND-ALUM-001953,6,1,Senior,EdTech & Digital Learning,7,indian_academic_benchmark
+IND-OUT-001954,IND-ALUM-001954,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001955,IND-ALUM-001955,6,0,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001956,IND-ALUM-001956,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001957,IND-ALUM-001957,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001958,IND-ALUM-001958,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-001959,IND-ALUM-001959,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001960,IND-ALUM-001960,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001961,IND-ALUM-001961,6,1,Senior,EdTech & Digital Learning,5,indian_academic_benchmark
+IND-OUT-001962,IND-ALUM-001962,6,1,Lead/Principal,Consulting & IT Services,8,indian_academic_benchmark
+IND-OUT-001963,IND-ALUM-001963,6,1,Mid-Level,Information Technology & SaaS,2,indian_academic_benchmark
+IND-OUT-001964,IND-ALUM-001964,6,1,Entry-Level,E-Commerce & Quick Commerce,1,indian_academic_benchmark
+IND-OUT-001965,IND-ALUM-001965,6,0,Mid-Level,Telecommunications & 5G,3,indian_academic_benchmark
+IND-OUT-001966,IND-ALUM-001966,6,1,Mid-Level,Banking & FinTech (BFSI),4,indian_academic_benchmark
+IND-OUT-001967,IND-ALUM-001967,6,1,Senior,Telecommunications & 5G,5,indian_academic_benchmark
+IND-OUT-001968,IND-ALUM-001968,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001969,IND-ALUM-001969,6,1,Mid-Level,Consulting & IT Services,3,indian_academic_benchmark
+IND-OUT-001970,IND-ALUM-001970,6,1,Entry-Level,Information Technology & SaaS,0,indian_academic_benchmark
+IND-OUT-001971,IND-ALUM-001971,6,1,Mid-Level,E-Commerce & Quick Commerce,3,indian_academic_benchmark
+IND-OUT-001972,IND-ALUM-001972,6,1,Mid-Level,EdTech & Digital Learning,2,indian_academic_benchmark
+IND-OUT-001973,IND-ALUM-001973,6,1,Mid-Level,E-Commerce & Quick Commerce,4,indian_academic_benchmark
+IND-OUT-001974,IND-ALUM-001974,6,0,Mid-Level,Information Technology & SaaS,3,indian_academic_benchmark
+IND-OUT-001975,IND-ALUM-001975,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001976,IND-ALUM-001976,6,0,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001977,IND-ALUM-001977,6,1,Entry-Level,EdTech & Digital Learning,1,indian_academic_benchmark
+IND-OUT-001978,IND-ALUM-001978,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001979,IND-ALUM-001979,6,1,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001980,IND-ALUM-001980,6,1,Mid-Level,Consulting & IT Services,4,indian_academic_benchmark
+IND-OUT-001981,IND-ALUM-001981,6,1,Lead/Principal,EdTech & Digital Learning,9,indian_academic_benchmark
+IND-OUT-001982,IND-ALUM-001982,6,1,Lead/Principal,EdTech & Digital Learning,8,indian_academic_benchmark
+IND-OUT-001983,IND-ALUM-001983,6,1,Mid-Level,Banking & FinTech (BFSI),3,indian_academic_benchmark
+IND-OUT-001984,IND-ALUM-001984,6,1,Mid-Level,Healthcare & HealthTech,3,indian_academic_benchmark
+IND-OUT-001985,IND-ALUM-001985,6,1,Senior,Information Technology & SaaS,5,indian_academic_benchmark
+IND-OUT-001986,IND-ALUM-001986,6,1,Mid-Level,Information Technology & SaaS,4,indian_academic_benchmark
+IND-OUT-001987,IND-ALUM-001987,6,0,Entry-Level,Automotive & EV Systems,1,indian_academic_benchmark
+IND-OUT-001988,IND-ALUM-001988,6,1,Senior,Telecommunications & 5G,6,indian_academic_benchmark
+IND-OUT-001989,IND-ALUM-001989,6,1,Senior,Banking & FinTech (BFSI),7,indian_academic_benchmark
+IND-OUT-001990,IND-ALUM-001990,6,1,Senior,Banking & FinTech (BFSI),5,indian_academic_benchmark
+IND-OUT-001991,IND-ALUM-001991,6,1,Mid-Level,Telecommunications & 5G,4,indian_academic_benchmark
+IND-OUT-001992,IND-ALUM-001992,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001993,IND-ALUM-001993,6,0,Mid-Level,EdTech & Digital Learning,4,indian_academic_benchmark
+IND-OUT-001994,IND-ALUM-001994,6,1,Mid-Level,Automotive & EV Systems,4,indian_academic_benchmark
+IND-OUT-001995,IND-ALUM-001995,6,1,Mid-Level,Healthcare & HealthTech,4,indian_academic_benchmark
+IND-OUT-001996,IND-ALUM-001996,6,0,Mid-Level,Automotive & EV Systems,3,indian_academic_benchmark
+IND-OUT-001997,IND-ALUM-001997,6,0,Mid-Level,Banking & FinTech (BFSI),2,indian_academic_benchmark
+IND-OUT-001998,IND-ALUM-001998,6,1,Mid-Level,EdTech & Digital Learning,3,indian_academic_benchmark
+IND-OUT-001999,IND-ALUM-001999,6,1,Senior,E-Commerce & Quick Commerce,5,indian_academic_benchmark
+IND-OUT-002000,IND-ALUM-002000,6,0,Entry-Level,Information Technology & SaaS,1,indian_academic_benchmark

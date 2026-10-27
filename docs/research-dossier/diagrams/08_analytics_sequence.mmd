@@ -1,0 +1,69 @@
+%% ============================================================================
+%% DWM Platform - Analytical Query and Data Mining Execution Sequence
+%% File: 08_analytics_sequence.mmd
+%% Scope: Dual sequence diagram tracing synchronous OLAP matrix aggregation and
+%%        multi-stage Apriori association rule mining executions.
+%% ============================================================================
+
+sequenceDiagram
+    autonumber
+    actor Analyst as Educational Analyst
+    participant UI as AnalyticsOLAP / AnalyticsMining (React)
+    participant API as http.js (Axios Client)
+    participant Router as Express API Router (/api)
+    participant Ctrl as analyticsController / miningController
+    participant Svc as warehouseRepo / associationRulesService
+    participant DB as PostgreSQL 16 (dwh Schema)
+
+    %% ------------------------------------------------------------------------
+    %% WORKFLOW A: OLAP 2D MATRIX QUERY
+    %% ------------------------------------------------------------------------
+    rect rgb(240, 248, 255)
+        Note over Analyst,DB: WORKFLOW A: OLAP Multidimensional 2D Matrix Query
+        Analyst->>UI: Selects Row Axis ('Department'), Col Axis ('Tier'), Metric ('avgLpa')
+        UI->>API: GET /api/analytics/olap?primaryDimension=department&secondaryDimension=tier&measure=avgLpa
+        API->>Router: Forward HTTP Request with Authorization Header
+        Router->>Ctrl: Dispatch to analyticsController.getOlap(req, res)
+        Ctrl->>Svc: warehouseRepository.getOlapData({ primaryDimension, secondaryDimension, measure })
+        
+        Note over Svc,DB: SQL Generation with Injection-Safe Whitelist
+        Svc->>Svc: Map primaryDimension -> 's.department', secondaryDimension -> 'c.company_tier'
+        Svc->>DB: SELECT s.department, c.company_tier, AVG(p.annual_package_lpa) ... GROUP BY 1, 2
+        DB-->>Svc: Return 18 grouped tabular rows
+        
+        Note over Svc: 2D Matrix Transformation & Marginal Totals
+        Svc->>Svc: Pivot flat tuples into row/col matrix grid
+        Svc->>Svc: Compute row sums, col sums, and overall average
+        Svc-->>Ctrl: Return structured OLAP Matrix DTO
+        Ctrl-->>API: HTTP 200 OK { success: true, data: { matrix, totals } }
+        API-->>UI: Resolve Axios Promise
+        UI-->>Analyst: Render Interactive SVG Heatmap Matrix with Marginal Totals
+    end
+
+    %% ------------------------------------------------------------------------
+    %% WORKFLOW B: APRIORI ASSOCIATION MINING EXECUTION
+    %% ------------------------------------------------------------------------
+    rect rgb(255, 250, 245)
+        Note over Analyst,DB: WORKFLOW B: Apriori Association Rule Mining Execution
+        Analyst->>UI: Configures Mode A (Alumni Skills), minSupport=5%, minConfidence=50%, minLift=1.1x
+        UI->>API: GET /api/analytics/mining/association-rules?mode=alumni_skills&minSupport=0.05&minConfidence=0.5&minLift=1.1
+        API->>Router: Forward HTTP Request
+        Router->>Ctrl: Dispatch to dataminingController.getAssociationRules(req, res)
+        Ctrl->>Svc: runAprioriAssociationMining({ mode, minSupport, minConfidence, minLift })
+        
+        Note over Svc,DB: Extract Transaction Baskets
+        Svc->>DB: SELECT alumni_sk, array_agg(skill_name) FROM bridge_alumni_skill JOIN dim_skill GROUP BY alumni_sk
+        DB-->>Svc: Return 2,000 skill transaction baskets (N = 2,000)
+        
+        Note over Svc: In-Memory Apriori Algorithmic Pipeline
+        Svc->>Svc: Count 1-itemset frequencies -> Generate L1 (19 frequent items)
+        Svc->>Svc: Generate Candidate 2-Itemsets C2 & Apply Apriori Pruning -> L2 (14 itemsets)
+        Svc->>Svc: Generate Candidate 3-Itemsets C3 & Prune -> L3 (2 itemsets)
+        Svc->>Svc: Bitmask proper subset partitioning -> Calculate Confidence and Lift
+        Svc->>Svc: Filter rules where Conf >= 0.50 AND Lift >= 1.10 -> 11 Qualified Rules
+        
+        Svc-->>Ctrl: Return Apriori Results DTO (frequentItemsets, rules, diagnostics)
+        Ctrl-->>API: HTTP 200 OK { success: true, data: { rules, itemsets, diagnostics } }
+        API-->>UI: Resolve Promise
+        UI-->>Analyst: Display Ranked Association Rules Table (Sorted by Lift Descending)
+    end

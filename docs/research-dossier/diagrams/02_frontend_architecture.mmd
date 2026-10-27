@@ -1,0 +1,108 @@
+%% ============================================================================
+%% DWM Platform - Frontend Component Architecture Diagram
+%% File: 02_frontend_architecture.mmd
+%% Scope: Component hierarchy, routing structure, state management, shared UI,
+%%        and API client integration in React 18 / Vite.
+%% ============================================================================
+
+flowchart TD
+    %% ------------------------------------------------------------------------
+    %% ENTRY & CONTEXT
+    %% ------------------------------------------------------------------------
+    subgraph CoreApplication ["Application Bootstrap & Routing Core"]
+        Main["main.jsx (ReactDOM.createRoot)"]
+        App["App.jsx (React Router v6 / BrowserRouter)"]
+        AuthCtx["AuthContext.jsx<br/>(User: dwm-analyst-001, Roles: ANALYST/RESEARCHER)"]
+        Layout["AnalyticsLayout.jsx<br/>(Glassmorphic Nav, Sidebar, Health Status)"]
+        ErrBoundary["ErrorBoundary.jsx<br/>(Component-Level Crash Protection)"]
+    end
+
+    Main --> App
+    App --> AuthCtx
+    AuthCtx --> Layout
+    Layout --> ErrBoundary
+
+    %% ------------------------------------------------------------------------
+    %% PAGE LEVEL VIEWS
+    %% ------------------------------------------------------------------------
+    subgraph PageViews ["Analytical Page Modules (Route Views)"]
+        P_Overview["AnalyticsOverview.jsx<br/>Path: / & /overview<br/>(Placement KPIs, Salary Gauges, Fast Summary)"]
+        P_Warehouse["AnalyticsWarehouseOverview.jsx<br/>Path: /warehouse & /schema<br/>(Catalog, Interactive ERD, 38-Check Audit)"]
+        P_OLAP["AnalyticsOLAP.jsx<br/>Path: /olap<br/>(Cube Slicer, Dicer, 2D Pivot Heatmap)"]
+        P_Mining["AnalyticsMining.jsx<br/>Path: /mining & /datamining<br/>(Apriori, K-Means PCA, Classifier Tabs)"]
+        P_Career["AnalyticsCareer.jsx<br/>Path: /career<br/>(Compensation Histograms, Tier Trends)"]
+        P_Skills["AnalyticsSkills.jsx<br/>Path: /skills<br/>(Supply vs Demand Deficit Analysis)"]
+        P_Alumni["AnalyticsAlumni.jsx<br/>Path: /alumni<br/>(Geographic Density, Industry Matrices)"]
+        P_Data["AnalyticsDataManagement.jsx<br/>Path: /data<br/>(CSV Dropzone, Dry-Run Staging, Batch Ledger)"]
+        P_Dict["AnalyticsDataDictionary.jsx<br/>Path: /dictionary<br/>(Field Types, Nullability, Surrogate Key Catalog)"]
+    end
+
+    ErrBoundary --> P_Overview
+    ErrBoundary --> P_Warehouse
+    ErrBoundary --> P_OLAP
+    ErrBoundary --> P_Mining
+    ErrBoundary --> P_Career
+    ErrBoundary --> P_Skills
+    ErrBoundary --> P_Alumni
+    ErrBoundary --> P_Data
+    ErrBoundary --> P_Dict
+
+    %% ------------------------------------------------------------------------
+    %% SHARED REUSABLE COMPONENTS
+    %% ------------------------------------------------------------------------
+    subgraph SharedComponents ["Shared Reusable UI Components (/components/analytics/)"]
+        Comp_Cards["AnalyticsCards.jsx<br/>(Metric KPI Cards with Delta Indicators)"]
+        Comp_Charts["AnalyticsCharts.jsx<br/>(Recharts Wrappers: Bar, Line, Area, Radar, Scatter)"]
+        Comp_Filter["AnalyticsFilterBar.jsx<br/>(Department, Year, Tier, Source Filter Selectors)"]
+        Comp_Table["AnalyticsTable.jsx<br/>(Paginated Data Grid with Column Sorting)"]
+    end
+
+    P_Overview --> Comp_Cards
+    P_Overview --> Comp_Charts
+    P_Warehouse --> Comp_Table
+    P_OLAP --> Comp_Filter
+    P_OLAP --> Comp_Charts
+    P_OLAP --> Comp_Table
+    P_Mining --> Comp_Charts
+    P_Mining --> Comp_Table
+    P_Career --> Comp_Cards
+    P_Career --> Comp_Charts
+    P_Career --> Comp_Filter
+    P_Skills --> Comp_Charts
+    P_Alumni --> Comp_Charts
+    P_Data --> Comp_Table
+
+    %% ------------------------------------------------------------------------
+    %% CLIENT SERVICE & API INTEGRATION
+    %% ------------------------------------------------------------------------
+    subgraph ServiceLayer ["Frontend Service & HTTP Layer (/services/)"]
+        Svc_Analytics["analytics.service.js<br/>(getOverview, getOlap, getWarehouseSummary, uploadCsv)"]
+        Svc_Mining["datamining.service.js<br/>(getAssociationRules, getClustering, trainClassifier, predict)"]
+        HTTPClient["http.js (Axios Instance)<br/>(Base URL: /api, Auth Bearer Interceptor, Error Formatting)"]
+    end
+
+    P_Overview --> Svc_Analytics
+    P_Warehouse --> Svc_Analytics
+    P_OLAP --> Svc_Analytics
+    P_Career --> Svc_Analytics
+    P_Skills --> Svc_Analytics
+    P_Alumni --> Svc_Analytics
+    P_Data --> Svc_Analytics
+    P_Dict --> Svc_Analytics
+
+    P_Mining --> Svc_Mining
+
+    Svc_Analytics --> HTTPClient
+    Svc_Mining --> HTTPClient
+
+    %% ------------------------------------------------------------------------
+    %% EXTERNAL VISUALIZATION LIBS
+    %% ------------------------------------------------------------------------
+    subgraph ExternalLibs ["External Client Libraries"]
+        Lib_Recharts["Recharts v2<br/>(ResponsiveContainer, ScatterChart, RadarChart, BarChart)"]
+        Lib_Lucide["Lucide React<br/>(Database, Cpu, Network, Layers, Table, Upload Icons)"]
+    end
+
+    Comp_Charts --> Lib_Recharts
+    Layout --> Lib_Lucide
+    P_Warehouse --> Lib_Lucide

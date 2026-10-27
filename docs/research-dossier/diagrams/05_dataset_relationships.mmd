@@ -1,0 +1,69 @@
+%% ============================================================================
+%% DWM Platform - Dataset Relationships and Warehouse Mapping Diagram
+%% File: 05_dataset_relationships.mmd
+%% Scope: Entity relationships among the 7 physical synthetic CSV datasets,
+%%        join keys, cardinalities, and physical mappings to DWH tables.
+%% ============================================================================
+
+flowchart LR
+    %% ------------------------------------------------------------------------
+    %% PHYSICAL CSV DATASETS
+    %% ------------------------------------------------------------------------
+    subgraph RawCSV_Datasets ["Physical Benchmark Datasets (50,150 Records)"]
+        direction TB
+
+        CSV_Skills["skills.csv<br/>(150 rows / 4 columns)<br/>PK: skill_id"]
+        CSV_Alumni["alumni.csv<br/>(2,000 rows / 10 columns)<br/>PK: alumni_id"]
+        CSV_Jobs["jobs.csv<br/>(5,000 rows / 10 columns)<br/>PK: job_id"]
+
+        CSV_AlumSkills["alumni_skills.csv<br/>(20,000 rows / 5 columns)<br/>Composite: (alumni_id, skill_id)"]
+        CSV_JobSkills["job_skills.csv<br/>(15,000 rows / 4 columns)<br/>Composite: (job_id, skill_id)"]
+
+        CSV_Apps["applications.csv<br/>(6,000 rows / 7 columns)<br/>PK: application_id"]
+        CSV_Outcomes["career_outcomes.csv<br/>(2,000 rows / 8 columns)<br/>PK: outcome_id | UK: alumni_id"]
+    end
+
+    %% ------------------------------------------------------------------------
+    %% DATASET RELATIONSHIPS & CARDINALITIES
+    %% ------------------------------------------------------------------------
+    CSV_Alumni -- "1 : N (alumni_id)" --> CSV_AlumSkills
+    CSV_Skills -- "1 : N (skill_id)" --> CSV_AlumSkills
+
+    CSV_Jobs -- "1 : N (job_id)" --> CSV_JobSkills
+    CSV_Skills -- "1 : N (skill_id)" --> CSV_JobSkills
+
+    CSV_Alumni -- "1 : N (alumni_id)" --> CSV_Apps
+    CSV_Jobs -- "1 : N (job_id)" --> CSV_Apps
+
+    CSV_Alumni -- "1 : 1 (alumni_id)" --> CSV_Outcomes
+
+    %% ------------------------------------------------------------------------
+    %% TARGET WAREHOUSE TABLES
+    %% ------------------------------------------------------------------------
+    subgraph WarehouseTables ["Analytical Warehouse Target Schema (dwh.*)"]
+        direction TB
+        T_Skill["dwh.dim_skill<br/>(Surrogate: skill_sk | Natural: natural_skill_id)"]
+        T_Alumni["dwh.dim_alumni<br/>(Surrogate: alumni_sk | Natural: natural_alumni_id)"]
+        T_Company["dwh.dim_company<br/>(Surrogate: company_sk | Distinct company_name)"]
+        T_Job["dwh.dim_job<br/>(Surrogate: job_sk | Natural: natural_job_id)"]
+        
+        T_BridgeAlum["dwh.bridge_alumni_skill<br/>(PK: alumni_sk, skill_sk)"]
+        T_BridgeJob["dwh.bridge_job_skill<br/>(PK: job_sk, skill_sk)"]
+
+        T_FactApp["dwh.fact_job_application<br/>(PK: application_id | FK: alumni_sk, job_sk, company_sk)"]
+        T_FactOutcomes["dwh.fact_career_outcomes<br/>(PK: outcome_id | UK: alumni_sk [1:1])"]
+    end
+
+    %% ------------------------------------------------------------------------
+    %% INGESTION MAPPING PATHWAYS
+    %% ------------------------------------------------------------------------
+    CSV_Skills ==>|"Direct Dimension Load"| T_Skill
+    CSV_Alumni ==>|"Profile Dimension Load"| T_Alumni
+    CSV_Jobs ==>|"De-duplicate Company & Load Requisitions"| T_Company
+    CSV_Jobs ==>|"Requisitions Load"| T_Job
+
+    CSV_AlumSkills ==>|"Resolve alumni_sk & skill_sk"| T_BridgeAlum
+    CSV_JobSkills ==>|"Resolve job_sk & skill_sk"| T_BridgeJob
+
+    CSV_Apps ==>|"Resolve applicant & job foreign keys"| T_FactApp
+    CSV_Outcomes ==>|"Resolve alumni_sk (Strict 1:1 Target)"| T_FactOutcomes

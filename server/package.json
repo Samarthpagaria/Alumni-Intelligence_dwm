@@ -1,0 +1,30 @@
+{
+  "name": "dwm-project-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test --test-concurrency=1 \"tests/**/*.test.js\"",
+    "test:watch": "node --test --watch \"tests/**/*.test.js\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "multer": "^2.0.0",
+    "pg": "^8.16.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
+    "@electric-sql/pglite-socket": "^0.2.11",
+    "supertest": "^7.1.0"
+  }
+}

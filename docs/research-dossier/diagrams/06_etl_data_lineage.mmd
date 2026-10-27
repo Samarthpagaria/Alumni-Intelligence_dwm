@@ -1,0 +1,110 @@
+%% ============================================================================
+%% DWM Platform - End-to-End ETL Ingestion Pipeline and Data Lineage Diagram
+%% File: 06_etl_data_lineage.mmd
+%% Scope: Staged data flow from raw CSV uploads through parsing, row-level validation,
+%%        dry-run preview, atomic transaction commit, and analytical consumption.
+%% ============================================================================
+
+flowchart TD
+    %% ------------------------------------------------------------------------
+    %% STAGE 1: INPUT RECEPTION
+    %% ------------------------------------------------------------------------
+    subgraph S1_IngestionInput ["Stage 1: Ingestion Intake & Buffer"]
+        ClientUpload["Client File Upload<br/>(Multipart Form POST /api/analytics/etl/upload)"]
+        MulterBuffer["Multer Memory Buffer<br/>(Max: 25 MB / MIME: text/csv)"]
+        Classifier{"Dataset Classifier<br/>(Target Table Resolution)"}
+    end
+
+    ClientUpload --> MulterBuffer
+    MulterBuffer --> Classifier
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 2: PARSING & ROW-LEVEL VALIDATION
+    %% ------------------------------------------------------------------------
+    subgraph S2_ValidationFilter ["Stage 2: Validation & Exception Trapping"]
+        direction TB
+        HeaderCheck{"Header Conformance?<br/>(Required Schema Columns)"}
+        StreamParser["csv-parse Stream Processor<br/>(Row-by-Row Evaluation)"]
+        
+        subgraph RowRules ["Row-Level Integrity Rules"]
+            R_Types["Type Coercion (Numeric, String, Date)"]
+            R_Bounds["Domain Bounds (0.0 <= CGPA <= 10.0, LPA >= 0)"]
+            R_Binary["Target Constraints (employed in {0, 1})"]
+            R_Nulls["Non-Null Mandatory Foreign Identifiers"]
+        end
+
+        RowCheck{"All Row Rules Passed?"}
+        LogErr["dwh.etl_batch_errors<br/>(Row number, Raw JSON payload, Failure reason)"]
+    end
+
+    Classifier -- "Match Valid Target" --> HeaderCheck
+    HeaderCheck -- "Missing Columns" --> LogErr
+    HeaderCheck -- "Valid Headers" --> StreamParser
+    StreamParser --> RowRules
+    RowRules --> RowCheck
+    RowCheck -- "Invalid (Fail)" --> LogErr
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 3: DRY-RUN GATE & PREVIEW
+    %% ------------------------------------------------------------------------
+    subgraph S3_StagingGate ["Stage 3: Dry-Run Staging Gate"]
+        DryRunCheck{"Dry-Run Requested?<br/>(isDryRun: true)"}
+        StageJSON["Stage in dwh.etl_batches.staged_data<br/>(Status: 'staged')"]
+        PreviewReturn["Return HTTP 200 Preview DTO<br/>(Total rows, Valid sample, Error breakdown)"]
+        CommitPrompt["Client Invokes POST /etl/confirm-import<br/>(Batch ID Passed)"]
+    end
+
+    RowCheck -- "Valid (Pass)" --> DryRunCheck
+    DryRunCheck -- "Yes (Preview Mode)" --> StageJSON
+    StageJSON --> PreviewReturn
+    PreviewReturn -.-> CommitPrompt
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 4: ATOMIC TRANSACTIONAL COMMIT
+    %% ------------------------------------------------------------------------
+    subgraph S4_WarehouseCommit ["Stage 4: Atomic Loading & Key Resolution"]
+        direction TB
+        TxBegin["BEGIN PostgreSQL Transaction"]
+        
+        subgraph KeyResolution ["Surrogate Key (_sk) Mapping"]
+            Lookup_Skill["Lookup or Insert dim_skill (skill_sk)"]
+            Lookup_Company["Lookup or Insert dim_company (company_sk)"]
+            Lookup_Alumni["Lookup or Insert dim_alumni (alumni_sk)"]
+            Lookup_Job["Lookup or Insert dim_job (job_sk)"]
+            Lookup_Date["Lookup Calendar dim_date (date_sk)"]
+        end
+
+        subgraph LoadingOrder ["Referential Chaining Sequence"]
+            Load_Dims["1. Dimensions (dim_student, dim_alumni, dim_job)"]
+            Load_Bridges["2. Multivalued Bridges (bridge_alumni_skill, bridge_job_skill)"]
+            Load_Facts["3. Fact Tables (fact_job_application, fact_career_outcomes)"]
+        end
+
+        TxCheck{"Constraint Errors?"}
+        TxRollback["ROLLBACK Transaction<br/>(dwh.etl_batches status: 'failed')"]
+        TxCommit["COMMIT Transaction<br/>(dwh.etl_batches status: 'completed')"]
+    end
+
+    DryRunCheck -- "No (Live Commit)" --> TxBegin
+    CommitPrompt ==> TxBegin
+    TxBegin --> KeyResolution
+    KeyResolution --> LoadingOrder
+    LoadingOrder --> TxCheck
+    TxCheck -- "Violation" --> TxRollback
+    TxCheck -- "Success" --> TxCommit
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 5: ANALYTICAL CONSUMPTION
+    %% ------------------------------------------------------------------------
+    subgraph S5_Consumption ["Stage 5: Downstream Analytical Consumption"]
+        direction LR
+        OLAP_Engine["OLAP Cube Engine<br/>(Slicing, Dicing, 2D Matrix)"]
+        Apriori_Engine["Apriori Association Engine<br/>(Mode A & Mode B Mining)"]
+        Clustering_Engine["K-Means++ Profile Clustering<br/>(PCA 2D Projections)"]
+        Classifier_Engine["Logistic Regression Classifier<br/>(Employability Inference)"]
+    end
+
+    TxCommit ==> OLAP_Engine
+    TxCommit ==> Apriori_Engine
+    TxCommit ==> Clustering_Engine
+    TxCommit ==> Classifier_Engine

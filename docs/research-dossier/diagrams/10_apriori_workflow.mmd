@@ -1,0 +1,100 @@
+%% ============================================================================
+%% DWM Platform - Apriori Association Rule Mining Algorithm Workflow
+%% File: 10_apriori_workflow.mmd
+%% Scope: Multi-modal transaction extraction, Apriori candidate generation,
+%%        subset pruning, rule derivation, confidence/lift metrics, and diagnostics.
+%% ============================================================================
+
+flowchart TD
+    %% ------------------------------------------------------------------------
+    %% STAGE 1: MODE SELECTION & BASKET CONSTRUCTION
+    %% ------------------------------------------------------------------------
+    subgraph S1_Baskets ["Stage 1: Transaction Basket Extraction"]
+        direction TB
+        ModeSelect{"Operational Mode Selection"}
+        
+        ModeA["Mode A: Alumni Competencies<br/>Source: dwh.bridge_alumni_skill JOIN dim_skill<br/>Basket Entity: Alumnus (N = 2,000)<br/>Avg Basket Size: ~10.0 skills"]
+        ModeB["Mode B: Job Requisition Demands<br/>Source: dwh.bridge_job_skill JOIN dim_skill<br/>Basket Entity: Job Requisition (N = 5,000)<br/>Avg Basket Size: ~3.0 skills"]
+
+        ParamConfig["Threshold Parameters<br/>- minSupport (default: 0.05 / 5%)<br/>- minConfidence (default: 0.50 / 50%)<br/>- minLift (default: 1.10x)<br/>- maxItemsetLength (default: 3)"]
+    end
+
+    ModeSelect -- "Alumni Profiles" --> ModeA
+    ModeSelect -- "Job Postings" --> ModeB
+    ModeA --> ParamConfig
+    ModeB --> ParamConfig
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 2: FREQUENT ITEMSET DISCOVERY (APRIORI)
+    %% ------------------------------------------------------------------------
+    subgraph S2_FrequentItemsets ["Stage 2: Apriori Frequent Itemset Generation"]
+        direction TB
+
+        L1_Gen["1. Generate Frequent 1-Itemsets (L_1)<br/>Count item frequencies across all N transactions<br/>Filter items with count >= minSupportCount"]
+        
+        subgraph IterLoop ["k-Itemset Loop (k = 2 to maxItemsetLength)"]
+            CandGen["Candidate Generation (C_k)<br/>Join L_{k-1} with L_{k-1} where first k-2 items match"]
+            PruneStep{"Apriori Pruning Check<br/>Are all (k-1) subsets of candidate in L_{k-1}?"}
+            PruneAction["Prune Candidate<br/>(Exclude from transaction scanning)"]
+            ScanTrans["Count Support in Transactions<br/>Scan transactions to count surviving candidates"]
+            FilterLk{"Candidate Count >= minSupportCount?"}
+            SaveLk["Add to Frequent k-Itemsets (L_k)"]
+        end
+
+        LoopCheck{"k < maxItemsetLength AND |L_k| > 0?"}
+    end
+
+    ParamConfig --> L1_Gen
+    L1_Gen --> CandGen
+    CandGen --> PruneStep
+    PruneStep -- "No (Subset Infrequent)" --> PruneAction
+    PruneStep -- "Yes (All Subsets Frequent)" --> ScanTrans
+    ScanTrans --> FilterLk
+    FilterLk -- "Yes" --> SaveLk
+    FilterLk -- "No" --> PruneAction
+    SaveLk --> LoopCheck
+    LoopCheck -- "Yes (k = k + 1)" --> CandGen
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 3: RULE GENERATION & EVALUATION
+    %% ------------------------------------------------------------------------
+    subgraph S3_RuleGeneration ["Stage 3: Rule Generation & Evaluation"]
+        direction TB
+
+        BitmaskSubsets["Bitmask Subset Partitioning<br/>For each S in L_k (k >= 2):<br/>Generate non-empty proper subsets X, Y such that X U Y = S, X cap Y = empty"]
+
+        subgraph MetricsMath ["Metric Formulations"]
+            M_Supp["Support(X => Y) = Count(X U Y) / N"]
+            M_Conf["Confidence(X => Y) = Support(X U Y) / Support(X)"]
+            M_Lift["Lift(X => Y) = Confidence(X => Y) / Support(Y)"]
+        end
+
+        subgraph DiagnosticsCounters ["Diagnostic Exception Tracking"]
+            D_Cand["candidateRulesGenerated++"]
+            D_ConfRej["rejectedByConfidence++"]
+            D_LiftRej["rejectedByLift++"]
+            D_Qual["qualifiedRulesCount++"]
+        end
+
+        FilterGate{"Threshold Gate<br/>Confidence >= minConfidence?<br/>Lift >= minLift?"}
+        RankRules["Ranked Association Rules<br/>Sorted descending by Lift, then Confidence, then Support"]
+    end
+
+    LoopCheck -- "Loop Terminated" --> BitmaskSubsets
+    BitmaskSubsets --> MetricsMath
+    MetricsMath --> D_Cand
+    D_Cand --> FilterGate
+    FilterGate -- "Confidence < minConf" --> D_ConfRej
+    FilterGate -- "Lift < minLift" --> D_LiftRej
+    FilterGate -- "Passed Both Gates" --> D_Qual
+    D_Qual --> RankRules
+
+    %% ------------------------------------------------------------------------
+    %% ILLUSTRATIVE EXAMPLE CALLOUT
+    %% ------------------------------------------------------------------------
+    subgraph IllustrativeBox ["Illustrative Pedagogical Example (Not Measured Result)"]
+        direction TB
+        ExNote["Toy Example: N = 5 Baskets, minSupport = 0.40, minConfidence = 0.60<br/>T1={Docker, SQL}, T2={Docker, SQL, AWS}, T3={SQL, Python}, T4={Docker, AWS}, T5={Docker, SQL, AWS}<br/>Rule: {Docker, SQL} => {AWS}<br/>Support = 2/5 = 0.40 | Confidence = 2/3 = 0.667 | Lift = 0.667 / 0.60 = 1.11x"]
+    end
+
+    RankRules -.-> IllustrativeBox

@@ -1,0 +1,255 @@
+%% ============================================================================
+%% DWM Platform - Complete Fact Constellation Entity Relationship Diagram (ERD)
+%% File: 04_warehouse_erd.mmd
+%% Scope: Comprehensive physical relational schema covering all 15 tables in
+%%        the 'dwh' schema: 6 dimensions, 3 bridges, 4 facts, and 2 audit ledgers.
+%% ============================================================================
+
+erDiagram
+    %% ==========================================
+    %% CONFORMED DIMENSIONS
+    %% ==========================================
+    dim_student {
+        SERIAL student_sk PK "Surrogate Primary Key"
+        UUID source_user_id "Informational reference"
+        VARCHAR student_id_number "Student ID (e.g. STU-1001)"
+        VARCHAR department "Academic branch"
+        VARCHAR degree "Degree program (B.Tech)"
+        INT admission_year "Enrollment year"
+        INT graduation_year "Graduation cohort"
+        NUMERIC cgpa "Cumulative GPA (0.0 - 10.0)"
+        NUMERIC tenth_percentage "Secondary marks"
+        NUMERIC twelfth_percentage "Higher secondary marks"
+        INT internships_count "Completed internships"
+        INT backlogs_count "Academic backlogs count"
+        VARCHAR placement_status "Placed / Not Placed"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+        TIMESTAMPTZ updated_at
+    }
+
+    dim_alumni {
+        SERIAL alumni_sk PK "Surrogate Primary Key"
+        UUID source_user_id "Informational reference"
+        VARCHAR natural_alumni_id UK "Natural Key (ALUM-1001)"
+        VARCHAR degree "Degree program (B.Tech, M.Tech)"
+        INT graduation_year "Graduation cohort"
+        VARCHAR department "Department"
+        VARCHAR current_company "Current employer"
+        VARCHAR job_role "Job title"
+        VARCHAR industry "Industry sector"
+        VARCHAR career_level "Entry / Mid / Senior / Executive"
+        NUMERIC experience_years "Total professional experience"
+        VARCHAR city "Employment location"
+        VARCHAR country "Country"
+        BOOLEAN is_mentor "Mentorship willingness"
+        BOOLEAN is_donor "Alumni donor status"
+        VARCHAR record_source "operational / synthetic"
+        DATE valid_from "SCD Type 2 Effective start"
+        DATE valid_to "SCD Type 2 Effective end"
+        BOOLEAN is_current "SCD Type 2 Active flag"
+        TIMESTAMPTZ created_at
+    }
+
+    dim_company {
+        SERIAL company_sk PK "Surrogate Primary Key"
+        VARCHAR natural_company_id UK "Natural Key (COMP-101)"
+        VARCHAR company_name UK "Unique legal company name"
+        VARCHAR industry "Corporate sector"
+        VARCHAR company_tier "Tier 1 / Tier 2 / Tier 3"
+        VARCHAR headquarters_location "Corporate HQ"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+    }
+
+    dim_skill {
+        SERIAL skill_sk PK "Surrogate Primary Key"
+        VARCHAR natural_skill_id UK "Natural Key (SKILL-101)"
+        VARCHAR skill_name UK "Unique skill name"
+        VARCHAR category "Taxonomy domain"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+    }
+
+    dim_date {
+        INT date_sk PK "Smart Key (YYYYMMDD)"
+        DATE full_date UK "Calendar date"
+        INT year "Calendar year (2018-2030)"
+        INT quarter "Quarter (1-4)"
+        INT month "Month (1-12)"
+        VARCHAR month_name "Month name"
+        INT day_of_month "Day of month"
+        INT day_of_week "ISO Day of week (1-7)"
+        VARCHAR day_name "Day name"
+        BOOLEAN is_weekend "Weekend flag"
+        VARCHAR academic_year "Academic cycle (e.g. 2023-2024)"
+        VARCHAR academic_semester "Odd-Fall / Even-Spring"
+    }
+
+    dim_job {
+        SERIAL job_sk PK "Surrogate Primary Key"
+        VARCHAR natural_job_id UK "Natural Key (JOB-1001)"
+        INT company_sk FK "Hiring company"
+        VARCHAR company_name "Company name"
+        VARCHAR job_title "Job vacancy title"
+        VARCHAR industry "Industry domain"
+        VARCHAR location_region "Work location"
+        VARCHAR employment_type "Full-Time / Part-Time / Intern"
+        DATE posted_date "Requisition post date"
+        INT posted_date_sk FK "Posted calendar date key"
+        VARCHAR experience_level "Entry / Mid / Senior"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+    }
+
+    %% ==========================================
+    %% MULTIVALUED BRIDGES
+    %% ==========================================
+    bridge_student_skill {
+        INT student_sk PK,FK "References dim_student"
+        INT skill_sk PK,FK "References dim_skill"
+        VARCHAR proficiency_level "Beginner / Intermediate / Advanced"
+        TIMESTAMPTZ created_at
+    }
+
+    bridge_alumni_skill {
+        INT alumni_sk PK,FK "References dim_alumni"
+        INT skill_sk PK,FK "References dim_skill"
+        VARCHAR proficiency_level "Beginner / Intermediate / Advanced"
+        INT years_used "Years of active usage"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+    }
+
+    bridge_job_skill {
+        INT job_sk PK,FK "References dim_job"
+        INT skill_sk PK,FK "References dim_skill"
+        VARCHAR required_level "Required / Preferred"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+    }
+
+    %% ==========================================
+    %% FACT TABLES
+    %% ==========================================
+    fact_placement {
+        SERIAL placement_id PK "Surrogate Primary Key"
+        INT student_sk FK "Placed student"
+        INT company_sk FK "Hiring employer"
+        INT offer_date_sk FK "Placement offer date"
+        NUMERIC annual_package_lpa "Annual salary in LPA"
+        NUMERIC base_salary_inr "Base fixed compensation"
+        NUMERIC bonus_inr "Variable / Joining bonus"
+        INT offers_count "Additive offer counter (1)"
+        NUMERIC aptitude_score "Aptitude test score (0-100)"
+        NUMERIC technical_test_score "Coding assessment score (0-100)"
+        NUMERIC interview_score "Technical interview score (0-100)"
+        INT readiness_score "Placement readiness index (0-100)"
+        BOOLEAN is_on_campus "On-Campus vs Off-Campus drive"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+    }
+
+    fact_job_application {
+        SERIAL application_id PK "Surrogate Primary Key"
+        VARCHAR natural_application_id UK "Natural Key (APP-1001)"
+        INT student_sk FK "Applicant (if student)"
+        INT alumni_sk FK "Applicant (if alumnus)"
+        INT company_sk FK "Employer"
+        INT job_sk FK "Target job vacancy"
+        INT applied_date_sk FK "Submission calendar date"
+        INT reviewed_date_sk FK "Review calendar date"
+        INT ats_match_score "ATS resume match (0-100)"
+        INT days_to_decision "Days between apply & decision"
+        INT is_shortlisted "Shortlisted indicator (0/1)"
+        INT is_selected "Hired indicator (0/1)"
+        VARCHAR application_status "Applied / Screened / Selected"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+    }
+
+    fact_salary_benchmark {
+        SERIAL salary_id PK "Surrogate Primary Key"
+        INT alumni_sk FK "Reporting alumnus"
+        INT company_sk FK "Benchmark employer"
+        INT effective_date_sk FK "Effective calendar date"
+        NUMERIC experience_years "Experience horizon"
+        NUMERIC total_annual_comp_inr "Annual compensation benchmark"
+        VARCHAR salary_band_tier "Salary band tier (e.g. 6-12 LPA)"
+        VARCHAR record_source "operational / synthetic"
+        TIMESTAMPTZ created_at
+    }
+
+    fact_career_outcomes {
+        SERIAL outcome_id PK "Surrogate Primary Key"
+        VARCHAR natural_outcome_id UK "Natural Key (OUT-1001)"
+        INT alumni_sk FK,UK "1:1 with dim_alumni"
+        INT observation_period_months "Standardized horizon (6)"
+        INT employed_within_6_months "Classification Target (0/1)"
+        VARCHAR career_level "Career level at 6 months"
+        VARCHAR industry "Industry domain"
+        NUMERIC experience_years_at_observation "Experience at milestone"
+        VARCHAR record_source "operational / synthetic"
+        BOOLEAN is_synthetic_educational_target "Explicit target flag"
+        TIMESTAMPTZ created_at
+    }
+
+    %% ==========================================
+    %% AUDIT & ETL LEDGERS
+    %% ==========================================
+    etl_batches {
+        UUID id PK "Execution batch UUID"
+        VARCHAR batch_type "csv_upload / api_import"
+        VARCHAR file_name "Ingested source filename"
+        VARCHAR status "pending / processing / completed"
+        INT rows_total "Total records in batch"
+        INT rows_inserted "Valid inserted records"
+        INT rows_rejected "Rejected validation failures"
+        JSONB staged_data "Temporary dry-run payload"
+        TEXT error_summary "High-level failure message"
+        TIMESTAMPTZ started_at
+        TIMESTAMPTZ completed_at
+    }
+
+    etl_batch_errors {
+        BIGSERIAL id PK "Error record ID"
+        UUID batch_id FK "References etl_batches"
+        INT row_number "Physical CSV row number"
+        JSONB raw_data "Raw rejected JSON row"
+        TEXT validation_error "Detailed validation rejection reason"
+        TIMESTAMPTZ created_at
+    }
+
+    %% ==========================================
+    %% 22 EXPLICIT REFERENTIAL RELATIONSHIPS
+    %% ==========================================
+    dim_student ||--o{ bridge_student_skill : "possesses"
+    dim_skill ||--o{ bridge_student_skill : "classified_in"
+
+    dim_alumni ||--o{ bridge_alumni_skill : "demonstrates"
+    dim_skill ||--o{ bridge_alumni_skill : "acquired_by"
+
+    dim_job ||--o{ bridge_job_skill : "stipulates"
+    dim_skill ||--o{ bridge_job_skill : "demanded_by"
+
+    dim_company ||--o{ dim_job : "originates"
+    dim_date ||--o{ dim_job : "advertised_on"
+
+    dim_student ||--o{ fact_placement : "awarded_to"
+    dim_company ||--o{ fact_placement : "offered_by"
+    dim_date ||--o{ fact_placement : "offered_on"
+
+    dim_student ||--o{ fact_job_application : "submitted_by_student"
+    dim_alumni ||--o{ fact_job_application : "submitted_by_alumni"
+    dim_company ||--o{ fact_job_application : "received_by"
+    dim_job ||--o{ fact_job_application : "targets_requisition"
+    dim_date ||--o{ fact_job_application : "applied_on"
+    dim_date ||--o{ fact_job_application : "reviewed_on"
+
+    dim_alumni ||--o{ fact_salary_benchmark : "reports_for"
+    dim_company ||--o{ fact_salary_benchmark : "benchmarked_at"
+    dim_date ||--o{ fact_salary_benchmark : "benchmarked_on"
+
+    dim_alumni ||--|| fact_career_outcomes : "evaluates_outcome"
+
+    etl_batches ||--o{ etl_batch_errors : "records_failures"

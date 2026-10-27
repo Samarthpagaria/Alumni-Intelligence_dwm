@@ -1,0 +1,89 @@
+%% ============================================================================
+%% DWM Platform - OLAP Multidimensional Cube Engine & Workflow Diagram
+%% File: 09_olap_workflow.mmd
+%% Scope: Multidimensional analytical cube architecture, dimension whitelisting,
+%%        canonical OLAP operations (Roll-Up, Drill-Down, Slice, Dice, Pivot),
+%%        measure computation, and visual matrix projection.
+%% ============================================================================
+
+flowchart TD
+    %% ------------------------------------------------------------------------
+    %% DIMENSION SELECTION & PARAMETER INPUT
+    %% ------------------------------------------------------------------------
+    subgraph DimensionInput ["1. Analytical Dimension Selection"]
+        direction TB
+        Dim_Primary["Primary Dimension (Row Axis)<br/>(Department / Company / Tier / Year / Industry / Degree / Source)"]
+        Dim_Secondary["Secondary Dimension (Column Axis)<br/>(Optional: Enables 2D Cross-Tabulation Pivot)"]
+        Measure_Select["Target Measure Selection<br/>(avgLpa, medianLpa, placedCount, totalOffers, minLpa, maxLpa)"]
+    end
+
+    %% ------------------------------------------------------------------------
+    %% OLAP CANONICAL OPERATIONS
+    %% ------------------------------------------------------------------------
+    subgraph OLAP_Operations ["2. OLAP Multidimensional Operations"]
+        direction TB
+
+        subgraph Op_SliceDice ["Slicing & Dicing Engine"]
+            Op_Slice["Slice Operation (Equality Filtering)<br/>- sliceDept: s.department = $1<br/>- sliceTier: c.company_tier = $2<br/>- sliceYear: d.year = $3<br/>- sliceCompany: c.company_name ILIKE $4"]
+            Op_Dice["Dice Operation (Bounding Box Thresholds)<br/>- minLpa: p.annual_package_lpa >= $minLpa<br/>Combined across multi-axis dimension filters"]
+        end
+
+        subgraph Op_Hierarchy ["Hierarchical Navigation"]
+            Op_Rollup["Roll-Up Operation<br/>Executes global institutional summary query<br/>across identical slice filters for context"]
+            Op_DrillDown["Drill-Down Operation<br/>Passing drillDownKey expands aggregated group<br/>into constituent company and job role details"]
+        end
+
+        subgraph Op_Pivot2D ["2D Matrix Pivoting"]
+            Op_Pivot["2D Cross-Tabulation Pivot<br/>Generates dynamic M x N grid projecting<br/>primaryDimension rows against secondaryDimension columns"]
+        end
+    end
+
+    DimensionInput --> OLAP_Operations
+
+    %% ------------------------------------------------------------------------
+    %% SQL GENERATION & EXECUTION
+    %% ------------------------------------------------------------------------
+    subgraph SQL_Generation ["3. SQL Query Construction & Parameterization"]
+        direction TB
+        WhitelistCheck{"Dimension Whitelist Check<br/>(ALLOWED_DIMENSIONS)"}
+        ParamQuery["Construct Parameterized Prepared SQL<br/>($1, $2, ... placeholders)"]
+        
+        subgraph Aggregations ["Measures & Statistical Functions"]
+            M_Count["total_offers: COUNT(p.placement_id)"]
+            M_Placed["placed_count: COUNT(DISTINCT p.student_sk)"]
+            M_Avg["avg_lpa: ROUND(AVG(p.annual_package_lpa), 2)"]
+            M_Median["median_lpa: PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY annual_package_lpa)"]
+            M_Bounds["min_lpa / max_lpa: MIN/MAX(p.annual_package_lpa)"]
+        end
+    end
+
+    OLAP_Operations --> WhitelistCheck
+    WhitelistCheck -- "Matched" --> ParamQuery
+    WhitelistCheck -- "Unrecognized" --> DefaultDept["Default to s.department"]
+    DefaultDept --> ParamQuery
+    ParamQuery --> Aggregations
+
+    %% ------------------------------------------------------------------------
+    %% WAREHOUSE ENGINE
+    %% ------------------------------------------------------------------------
+    subgraph DWH_Execution ["4. Analytical Warehouse Engine (PostgreSQL dwh)"]
+        DWH_Join[("dwh.fact_placement (p)<br/>JOIN dwh.dim_student (s) ON s.student_sk = p.student_sk<br/>JOIN dwh.dim_company (c) ON c.company_sk = p.company_sk<br/>LEFT JOIN dwh.dim_date (d) ON d.date_sk = p.offer_date_sk")]
+    end
+
+    Aggregations --> DWH_Join
+
+    %% ------------------------------------------------------------------------
+    %% RESULTS TRANSFORMATION & VISUALIZATION
+    %% ------------------------------------------------------------------------
+    subgraph VisualDelivery ["5. In-Memory Pivot & Visualization Delivery"]
+        direction TB
+        InMemPivot["In-Memory 2D Grid Transformation<br/>Calculates row marginal sums & column marginal sums"]
+        HeatmapRender["SVG Heatmap Matrix<br/>Cells colored with opacity proportional to metric density"]
+        BarChartRender["Recharts Distribution Bars & KPI Gauges"]
+        DataTableRender["Paginated Detail Grid with Sortable Columns"]
+    end
+
+    DWH_Join --> InMemPivot
+    InMemPivot --> HeatmapRender
+    InMemPivot --> BarChartRender
+    InMemPivot --> DataTableRender

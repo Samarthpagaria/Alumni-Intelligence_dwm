@@ -1,0 +1,117 @@
+%% ============================================================================
+%% DWM Platform - Unsupervised Clustering & PCA Projection Workflow
+%% File: 12_clustering_workflow.mmd
+%% Scope: K-Means++ initialization, Mulberry32 PRNG seed invariance,
+%%        iterative Lloyd's optimization, multi-K evaluation (Elbow & Silhouette),
+%%        and 2D PCA dimensionality reduction.
+%% ============================================================================
+
+flowchart TD
+    %% ------------------------------------------------------------------------
+    %% STAGE 1: FEATURE EXTRACTION & SCALING
+    %% ------------------------------------------------------------------------
+    subgraph S1_FeatureExtraction ["Stage 1: Feature Matrix Construction"]
+        AlumniProfiles[("dwh.dim_alumni & bridge_alumni_skill<br/>Total Instances: N = 2,000")]
+        
+        subgraph Features ["Selected Analytical Dimensions (d = 6)"]
+            F_Exp["experience_years"]
+            F_SkillsCount["total_skill_count"]
+            F_Proficiency["average_proficiency_score"]
+            F_GradYear["norm_graduation_cohort"]
+            F_CompTier["company_tier_ordinal"]
+            F_Domain["domain_breadth_index"]
+        end
+
+        MinMaxScale["Min-Max Scaling Engine<br/>Maps all features into normalized interval [0.0, 1.0]<br/>Yields normalized matrix X in R^(2000 x 6)"]
+    end
+
+    AlumniProfiles --> Features
+    Features --> MinMaxScale
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 2: DETERMINISTIC K-MEANS++ INITIALIZATION
+    %% ------------------------------------------------------------------------
+    subgraph S2_KMeansInit ["Stage 2: Deterministic K-Means++ Seeding"]
+        direction TB
+
+        MulberryPRNG["Mulberry32 PRNG (seed = 2026)<br/>Guarantees bitwise reproducible centroid selection"]
+        
+        FirstCentroid["1. Select first centroid mu_1 uniformly at random from X"]
+        DistSqCalc["2. Compute D(x)^2 = min ||x - mu_j||^2 to existing centroids"]
+        SampleNext["3. Sample next centroid mu_{m+1} with probability proportional to D(x)^2"]
+        InitDone{"All K centroids initialized?"}
+    end
+
+    MinMaxScale --> MulberryPRNG
+    MulberryPRNG --> FirstCentroid
+    FirstCentroid --> DistSqCalc
+    DistSqCalc --> SampleNext
+    SampleNext --> InitDone
+    InitDone -- "No (m < K)" --> DistSqCalc
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 3: ITERATIVE EXPECTATION-MAXIMIZATION
+    %% ------------------------------------------------------------------------
+    subgraph S3_EM_Loop ["Stage 3: Lloyd's Iterative Optimization"]
+        direction TB
+
+        AssignStep["Assignment Step (Expectation):<br/>Assign each point x_i to nearest centroid mu_c<br/>c* = argmin ||x_i - mu_c||^2"]
+        
+        UpdateStep["Update Step (Maximization):<br/>Recompute centroids as geometric mean:<br/>mu_c := (1 / |C_c|) sum x_i for x_i in C_c"]
+
+        EmptyTrap{"Empty Cluster Detected?<br/>(|C_c| == 0)"}
+        RecoverEmpty["Reassign centroid to point with largest distance from current cluster"]
+
+        ConvCheck{"Convergence Check:<br/>Centroid drift < 1e-4 OR Iterations >= 50?"}
+    end
+
+    InitDone -- "Yes" --> AssignStep
+    AssignStep --> UpdateStep
+    UpdateStep --> EmptyTrap
+    EmptyTrap -- "Yes" --> RecoverEmpty
+    RecoverEmpty --> ConvCheck
+    EmptyTrap -- "No" --> ConvCheck
+    ConvCheck -- "No (Drift Exceeds 1e-4)" --> AssignStep
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 4: MULTI-K EVALUATION (ELBOW & SILHOUETTE)
+    %% ------------------------------------------------------------------------
+    subgraph S4_MultiK_Evaluation ["Stage 4: Multi-K Evaluation & Optimization"]
+        direction TB
+
+        InertiaCalc["WCSS / Inertia Computation:<br/>Inertia = sum_k sum_{x in C_k} ||x - mu_k||^2"]
+        SilhCalc["Silhouette Coefficient:<br/>s(i) = (b_i - a_i) / max(a_i, b_i)<br/>Global Score S = (1/N) sum s(i)"]
+
+        subgraph VerifiedScores ["Empirical Findings across K in [2, 8]"]
+            K2["K = 2: Inertia = 482.2 | Silhouette = 0.482"]
+            K3["K = 3: Inertia = 312.4 | Silhouette = 0.524 (ELBOW POINT)"]
+            K4["K = 4: Inertia = 248.8 | Silhouette = 0.561 (PEAK SILHOUETTE)"]
+            K5["K = 5: Inertia = 215.3 | Silhouette = 0.508"]
+        end
+    end
+
+    ConvCheck -- "Converged" --> InertiaCalc
+    InertiaCalc --> SilhCalc
+    SilhCalc --> VerifiedScores
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 5: 2D PCA PROJECTION & VISUALIZATION
+    %% ------------------------------------------------------------------------
+    subgraph S5_PCA_Visualization ["Stage 5: 2D PCA Dimensionality Reduction"]
+        direction TB
+
+        Centering["Mean-Center Feature Matrix:<br/>X_tilde = X - mean(X)"]
+        Covariance["Covariance Matrix:<br/>Sigma = (1/N) * X_tilde^T * X_tilde in R^(6 x 6)"]
+        PowerIteration["Power Iteration with Deflation:<br/>Extract top 2 principal eigenvectors v_1, v_2"]
+        Project2D["2D Projection Coordinates:<br/>z_i = [x_tilde_i^T * v_1, x_tilde_i^T * v_2] in R^2"]
+
+        RechartsScatter["Recharts Interactive SVG Scatter Plot<br/>Points plotted on (z_1, z_2) colored by Cluster ID"]
+        PersonaCards["Cluster Persona Summaries<br/>(Core Engineers, Cloud Architects, Emerging Analysts)"]
+    end
+
+    ConvCheck -- "Cluster Assignments" --> Centering
+    Centering --> Covariance
+    Covariance --> PowerIteration
+    PowerIteration --> Project2D
+    Project2D --> RechartsScatter
+    RechartsScatter --> PersonaCards

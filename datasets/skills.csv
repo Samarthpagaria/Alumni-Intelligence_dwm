@@ -1,0 +1,151 @@
+skill_id,skill_name,skill_category,data_source
+SKILL-001,Python,Programming Languages,indian_academic_benchmark
+SKILL-002,Java,Programming Languages,indian_academic_benchmark
+SKILL-003,C++,Programming Languages,indian_academic_benchmark
+SKILL-004,C#,Programming Languages,indian_academic_benchmark
+SKILL-005,JavaScript,Programming Languages,indian_academic_benchmark
+SKILL-006,TypeScript,Programming Languages,indian_academic_benchmark
+SKILL-007,Go,Programming Languages,indian_academic_benchmark
+SKILL-008,Rust,Programming Languages,indian_academic_benchmark
+SKILL-009,Kotlin,Programming Languages,indian_academic_benchmark
+SKILL-010,Swift,Programming Languages,indian_academic_benchmark
+SKILL-011,Scala,Programming Languages,indian_academic_benchmark
+SKILL-012,R,Programming Languages,indian_academic_benchmark
+SKILL-013,PHP,Programming Languages,indian_academic_benchmark
+SKILL-014,SQL,Programming Languages,indian_academic_benchmark
+SKILL-015,Bash/Shell Scripting,Programming Languages,indian_academic_benchmark
+SKILL-016,Solidity,Programming Languages,indian_academic_benchmark
+SKILL-017,PostgreSQL,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-018,MySQL,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-019,MongoDB,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-020,Redis,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-021,Apache Spark,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-022,Apache Kafka,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-023,Apache Airflow,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-024,Hadoop,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-025,Snowflake,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-026,Databricks,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-027,dbt,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-028,Google BigQuery,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-029,Amazon Redshift,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-030,Cassandra,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-031,Elasticsearch,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-032,ETL Pipeline Design,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-033,Data Modeling,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-034,Star Schema Design,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-035,Presto / Trino,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-036,Airbyte,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-037,ClickHouse,Data Engineering & Warehousing,indian_academic_benchmark
+SKILL-038,Tableau,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-039,Power BI,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-040,Microsoft Excel / Advanced DAX,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-041,Looker,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-042,Metabase,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-043,Statistical Modeling,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-044,Exploratory Data Analysis,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-045,A/B Testing Methodology,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-046,Google Analytics,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-047,Cohort Analysis,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-048,Predictive Analytics,Business Intelligence & Analytics,indian_academic_benchmark
+SKILL-049,Scikit-Learn,Machine Learning & AI,indian_academic_benchmark
+SKILL-050,Pandas,Machine Learning & AI,indian_academic_benchmark
+SKILL-051,NumPy,Machine Learning & AI,indian_academic_benchmark
+SKILL-052,TensorFlow,Machine Learning & AI,indian_academic_benchmark
+SKILL-053,PyTorch,Machine Learning & AI,indian_academic_benchmark
+SKILL-054,Keras,Machine Learning & AI,indian_academic_benchmark
+SKILL-055,Natural Language Processing,Machine Learning & AI,indian_academic_benchmark
+SKILL-056,Computer Vision (OpenCV),Machine Learning & AI,indian_academic_benchmark
+SKILL-057,Large Language Models,Machine Learning & AI,indian_academic_benchmark
+SKILL-058,LangChain,Machine Learning & AI,indian_academic_benchmark
+SKILL-059,Vector Databases (Pinecone/Milvus),Machine Learning & AI,indian_academic_benchmark
+SKILL-060,MLflow,Machine Learning & AI,indian_academic_benchmark
+SKILL-061,Feature Engineering,Machine Learning & AI,indian_academic_benchmark
+SKILL-062,XGBoost,Machine Learning & AI,indian_academic_benchmark
+SKILL-063,Deep Learning,Machine Learning & AI,indian_academic_benchmark
+SKILL-064,Hugging Face Transformers,Machine Learning & AI,indian_academic_benchmark
+SKILL-065,Amazon Web Services (AWS),Cloud & Infrastructure,indian_academic_benchmark
+SKILL-066,Microsoft Azure,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-067,Google Cloud Platform (GCP),Cloud & Infrastructure,indian_academic_benchmark
+SKILL-068,Docker Containerization,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-069,Kubernetes,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-070,Terraform,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-071,Ansible,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-072,CI/CD (Jenkins),Cloud & Infrastructure,indian_academic_benchmark
+SKILL-073,GitHub Actions,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-074,Linux System Administration,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-075,Prometheus,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-076,Grafana,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-077,Nginx,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-078,Microservices Architecture,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-079,Serverless Computing,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-080,Helm Charts,Cloud & Infrastructure,indian_academic_benchmark
+SKILL-081,React.js,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-082,Node.js,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-083,Express.js,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-084,Next.js,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-085,Angular,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-086,Vue.js,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-087,Django,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-088,FastAPI,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-089,Flask,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-090,Spring Boot,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-091,ASP.NET Core,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-092,GraphQL,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-093,RESTful Web Services,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-094,HTML5 / CSS3,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-095,Tailwind CSS,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-096,Redux Toolkit,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-097,WebSockets,Web & Backend Frameworks,indian_academic_benchmark
+SKILL-098,Network Security,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-099,Vulnerability Assessment,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-100,Penetration Testing,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-101,SIEM Tools,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-102,Identity and Access Management (IAM),Cybersecurity & Networks,indian_academic_benchmark
+SKILL-103,OWASP Top 10,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-104,Wireshark,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-105,Firewall Configuration,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-106,Cryptography Basics,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-107,SOC Operations,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-108,Zero Trust Architecture,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-109,ISO 27001 Compliance,Cybersecurity & Networks,indian_academic_benchmark
+SKILL-110,Agile Methodology,Product Management & Agile,indian_academic_benchmark
+SKILL-111,Scrum Framework,Product Management & Agile,indian_academic_benchmark
+SKILL-112,Jira Software,Product Management & Agile,indian_academic_benchmark
+SKILL-113,Confluence Documentation,Product Management & Agile,indian_academic_benchmark
+SKILL-114,Product Roadmapping,Product Management & Agile,indian_academic_benchmark
+SKILL-115,User Story Mapping,Product Management & Agile,indian_academic_benchmark
+SKILL-116,Stakeholder Communication,Product Management & Agile,indian_academic_benchmark
+SKILL-117,Business Requirements Documentation (BRD),Product Management & Agile,indian_academic_benchmark
+SKILL-118,Risk Assessment,Product Management & Agile,indian_academic_benchmark
+SKILL-119,Sprint Planning,Product Management & Agile,indian_academic_benchmark
+SKILL-120,Figma,UI/UX & Design,indian_academic_benchmark
+SKILL-121,Adobe XD,UI/UX & Design,indian_academic_benchmark
+SKILL-122,Wireframing,UI/UX & Design,indian_academic_benchmark
+SKILL-123,Interactive Prototyping,UI/UX & Design,indian_academic_benchmark
+SKILL-124,User Research,UI/UX & Design,indian_academic_benchmark
+SKILL-125,Usability Testing,UI/UX & Design,indian_academic_benchmark
+SKILL-126,Design Systems,UI/UX & Design,indian_academic_benchmark
+SKILL-127,Information Architecture,UI/UX & Design,indian_academic_benchmark
+SKILL-128,Technical Documentation,Core Professional & Management,indian_academic_benchmark
+SKILL-129,Cross-Functional Leadership,Core Professional & Management,indian_academic_benchmark
+SKILL-130,Problem Solving,Core Professional & Management,indian_academic_benchmark
+SKILL-131,Client Presentations,Core Professional & Management,indian_academic_benchmark
+SKILL-132,Team Mentorship,Core Professional & Management,indian_academic_benchmark
+SKILL-133,Vendor Management,Core Professional & Management,indian_academic_benchmark
+SKILL-134,Root Cause Analysis,Core Professional & Management,indian_academic_benchmark
+SKILL-135,Apache Flink,Specialized Tech,indian_academic_benchmark
+SKILL-136,ArgoCD,Specialized Tech,indian_academic_benchmark
+SKILL-137,Vault Security,Specialized Tech,indian_academic_benchmark
+SKILL-138,ChromaDB,Specialized Tech,indian_academic_benchmark
+SKILL-139,Apollo GraphQL,Specialized Tech,indian_academic_benchmark
+SKILL-140,RabbitMQ,Specialized Tech,indian_academic_benchmark
+SKILL-141,Celery Distributed Task,Specialized Tech,indian_academic_benchmark
+SKILL-142,Istio Service Mesh,Specialized Tech,indian_academic_benchmark
+SKILL-143,Datadog APM,Specialized Tech,indian_academic_benchmark
+SKILL-144,New Relic,Specialized Tech,indian_academic_benchmark
+SKILL-145,Splunk Log Analytics,Specialized Tech,indian_academic_benchmark
+SKILL-146,Kong API Gateway,Specialized Tech,indian_academic_benchmark
+SKILL-147,CockroachDB,Specialized Tech,indian_academic_benchmark
+SKILL-148,OpenTelemetry,Specialized Tech,indian_academic_benchmark
+SKILL-149,PySpark Distributed,Specialized Tech,indian_academic_benchmark
+SKILL-150,Great Expectations QA,Specialized Tech,indian_academic_benchmark

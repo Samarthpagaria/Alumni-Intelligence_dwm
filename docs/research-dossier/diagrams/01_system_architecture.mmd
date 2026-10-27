@@ -1,0 +1,139 @@
+%% ============================================================================
+%% DWM Platform - Overall System Architecture Diagram
+%% File: 01_system_architecture.mmd
+%% Scope: End-to-end 3-tier decoupled architecture showing UI, API, services,
+%%        ETL pipeline, data mining engines, and analytical PostgreSQL storage.
+%% ============================================================================
+
+flowchart TB
+    %% ------------------------------------------------------------------------
+    %% CLIENT TIER
+    %% ------------------------------------------------------------------------
+    subgraph ClientTier ["CLIENT TIER (React 18 / Vite 5 / Tailwind CSS - Port 5174)"]
+        direction TB
+        AppRoot["Application Root (App.jsx)"]
+        Layout["AnalyticsLayout.jsx<br/>(Navigation, Header, Context)"]
+        AuthCtx["AuthContext.jsx<br/>(Decoupled Analyst State)"]
+        ErrBoundary["ErrorBoundary.jsx<br/>(Fault Isolation)"]
+
+        subgraph UIMargins ["Analytical Views & Cockpits"]
+            UI_Overview["AnalyticsOverview.jsx<br/>(Executive KPIs & Gauges)"]
+            UI_Warehouse["AnalyticsWarehouseOverview.jsx<br/>(Schema Catalog & Interactive ERD)"]
+            UI_OLAP["AnalyticsOLAP.jsx<br/>(Multidimensional Cube & 2D Pivot)"]
+            UI_Mining["AnalyticsMining.jsx<br/>(Apriori, K-Means & Classifier Tabs)"]
+            UI_Career["AnalyticsCareer.jsx<br/>(Placement Funnel & Compensation)"]
+            UI_Skills["AnalyticsSkills.jsx<br/>(Supply vs Demand Radar)"]
+            UI_Alumni["AnalyticsAlumni.jsx<br/>(Demographics & Trajectories)"]
+            UI_CSV["AnalyticsDataManagement.jsx<br/>(CSV Upload & Audit Ledger)"]
+            UI_Dict["AnalyticsDataDictionary.jsx<br/>(Schema Metadata Exploration)"]
+        end
+
+        APIClient["HTTP Client (http.js / Axios)<br/>Base URL: http://localhost:5001/api"]
+    end
+
+    AppRoot --> Layout
+    AppRoot --> AuthCtx
+    Layout --> ErrBoundary
+    ErrBoundary --> UIMargins
+    UIMargins --> APIClient
+
+    %% ------------------------------------------------------------------------
+    %% SERVER TIER
+    %% ------------------------------------------------------------------------
+    subgraph ServerTier ["SERVER TIER (Node.js 20+ LTS / Express.js 4 - Port 5001)"]
+        direction TB
+        ServerEntry["Server Entry Point (server.js / app.js)"]
+        
+        subgraph MiddlewarePipeline ["HTTP Middleware Pipeline"]
+            MW_Helmet["Helmet (Security Headers)"]
+            MW_CORS["CORS (Port 5174 Origin Allowed)"]
+            MW_Upload["Multer (25MB Multipart CSV Buffer)"]
+            MW_Auth["requireAuth (Decoupled Bearer / API Key)"]
+            MW_Zod["Zod Validation (Query & Param Schemas)"]
+        end
+
+        subgraph RoutingLayer ["Express Routing Layer"]
+            R_Analytics["analyticsRoutes.js (/api/analytics/*)"]
+            R_Mining["dataminingRoutes.js (/api/analytics/mining/*)"]
+        end
+
+        subgraph ControllerLayer ["Controller Layer"]
+            Ctrl_Analytics["analyticsController.js"]
+            Ctrl_Mining["dataminingController.js"]
+            Ctrl_CSV["csvIngestionController.js"]
+            Ctrl_Overview["warehouseOverviewController.js"]
+        end
+
+        subgraph EngineTier ["Analytical, Mining & ETL Engines"]
+            direction TB
+            Svc_OLAP["olapService / warehouseRepository<br/>(Roll-up, Drill-down, Slice, Dice, 2D Pivot)"]
+            Svc_Apriori["associationRulesService.js<br/>(Apriori Candidate Gen, Pruning, Confidence, Lift)"]
+            Svc_KMeans["clusteringService.js<br/>(Mulberry32 PRNG, K-Means++, WCSS, Silhouette, 2D PCA)"]
+            Svc_Classify["classificationService.js<br/>(Leakage-Safe Logistic Regression, Balanced Loss, ROC-AUC)"]
+            Svc_FeatEng["featureEngineeringService.js<br/>(Stratified Split, Normalization, PCA Power Iteration)"]
+            Svc_Eval["evaluationService.js<br/>(Confusion Matrix, Inertia, Silhouette Math)"]
+            Svc_ETL["csvIngestionService.js & etlPipeline.js<br/>(Row Validation, Dry-Run Staging, Surrogate Key Resolution)"]
+            Svc_Overview["warehouseOverviewService.js<br/>(Schema Catalog & 38 Quality Audits)"]
+        end
+
+        DBPool["Database Client Pool (dwh.js)<br/>PostgreSQL Connection Pool (pg.Pool)"]
+    end
+
+    APIClient -- "REST HTTP (JSON / Multipart)" --> ServerEntry
+    ServerEntry --> MiddlewarePipeline
+    MiddlewarePipeline --> RoutingLayer
+    RoutingLayer --> ControllerLayer
+    ControllerLayer --> EngineTier
+    EngineTier --> DBPool
+
+    %% ------------------------------------------------------------------------
+    %% STORAGE TIER
+    %% ------------------------------------------------------------------------
+    subgraph StorageTier ["ANALYTICAL STORAGE TIER (PostgreSQL / PGlite - Port 54329)"]
+        direction TB
+
+        subgraph DWH_Schema ["Isolated 'dwh' Schema (15 Tables / 56,732 Total Records)"]
+            direction TB
+            
+            subgraph Dimensions ["6 Conformed Dimensions"]
+                D_Student["dim_student (323 rows)"]
+                D_Alumni["dim_alumni (2,026 rows)"]
+                D_Company["dim_company (42 rows)"]
+                D_Skill["dim_skill (165 rows)"]
+                D_Date["dim_date (4,748 calendar rows)"]
+                D_Job["dim_job (5,002 rows)"]
+            end
+
+            subgraph Bridges ["3 Multivalued Bridge Tables"]
+                B_StudSkill["bridge_student_skill (921 rows)"]
+                B_AlumSkill["bridge_alumni_skill (20,013 rows)"]
+                B_JobSkill["bridge_job_skill (15,008 rows)"]
+            end
+
+            subgraph Facts ["4 Analytical Fact Tables"]
+                F_Placement["fact_placement (274 placement offers)"]
+                F_App["fact_job_application (6,006 applications)"]
+                F_Salary["fact_salary_benchmark (24 salary bands)"]
+                F_Outcomes["fact_career_outcomes (2,002 graduate targets)"]
+            end
+
+            subgraph Ledgers ["2 Audit & Ingestion Ledgers"]
+                L_Batches["etl_batches (137 batch runs)"]
+                L_Errors["etl_batch_errors (46 logged exceptions)"]
+            end
+        end
+    end
+
+    DBPool -- "TCP Socket (SQL Queries with $1 Parameterization)" --> DWH_Schema
+
+    %% ------------------------------------------------------------------------
+    %% DECOUPLING CALLOUT (ISOLATION GUARANTEE)
+    %% ------------------------------------------------------------------------
+    subgraph IsolatedOperational ["Operational Application (Completely Decoupled)"]
+        direction TB
+        ParentApp["Parent Alumni Portal<br/>(Client: 5173 / Server: 5000)"]
+        PublicSchema[("public Schema<br/>users, jobs, posts, messages")]
+        ParentApp -.-> PublicSchema
+    end
+
+    DWH_Schema -.-x|"Zero Foreign Keys / No Cross-Schema Joins"| PublicSchema

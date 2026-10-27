@@ -1,0 +1,102 @@
+%% ============================================================================
+%% DWM Platform - Academic Research Methodology & Experimental Framework
+%% File: 15_research_methodology.mmd
+%% Scope: Research lifecycle from domain problem definition through benchmark
+%%        generation, constellation warehousing, multi-mining experiments,
+%%        evaluation metrics, threats to validity, and future work.
+%% ============================================================================
+
+flowchart TD
+    %% ------------------------------------------------------------------------
+    %% STAGE 1: PROBLEM DEFINITION & OBJECTIVES
+    %% ------------------------------------------------------------------------
+    subgraph S1_ProblemDef ["1. Problem Definition & Institutional Objectives"]
+        direction TB
+        DomainPain["Institutional Bottlenecks:<br/>- Higher-ed data fragmentation across operational silos<br/>- Curriculum disconnect from enterprise competency demands<br/>- Accreditation mandates for 6-month graduate outcome tracking"]
+        Objectives["Research Objectives (O1 - O4):<br/>- O1: Decoupled Fact Constellation Warehouse Design<br/>- O2: Interactive OLAP Multidimensional Cube Engine<br/>- O3: Multi-Modal Competency Association Mining (Apriori)<br/>- O4: Leakage-Safe Supervised Outcome Prediction"]
+    end
+
+    DomainPain --> Objectives
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 2: BENCHMARK DATASET SYNTHESIS
+    %% ------------------------------------------------------------------------
+    subgraph S2_DatasetPrep ["2. Benchmark Dataset Preparation"]
+        direction TB
+        Generator["Deterministic Python Generator (generate_dwm_datasets.py)<br/>Empirical Indian academic distributions, skill taxonomy, corporate tiers"]
+        RawCSV["7 Physical Synthetic CSV Datasets (50,150 Records / 4.95 MB)<br/>skills, alumni, jobs, alumni_skills, job_skills, applications, outcomes"]
+        SyntheticCaveat["ETHICAL DISCLOSURE:<br/>Explicit synthetic benchmark marking to prevent commercial misrepresentation"]
+    end
+
+    Objectives --> Generator
+    Generator --> RawCSV
+    RawCSV --> SyntheticCaveat
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 3: WAREHOUSE MODELING & AUDITING
+    %% ------------------------------------------------------------------------
+    subgraph S3_WarehouseModeling ["3. Dimensional Modeling & Quality Auditing"]
+        direction TB
+        ConstellationDesign["Fact Constellation Schema (15 Tables / 22 Foreign Keys)<br/>- 6 Conformed Dimensions with Surrogate Keys (_sk)<br/>- 3 Multivalued Bridges (M:N skill competencies)<br/>- 4 Fact Tables with Enforced Grain Constraints"]
+        PrecomputedCalendar["Conformed Pre-Computed Date Calendar (2018-2030, 4,748 rows)<br/>Academic cycles ('2023-2024') & terms ('Odd-Fall' / 'Even-Spring')"]
+        QualityAudit["Automated Integrity Audit (38 Checks Matrix)<br/>37 passed / 1 warning for 46 logged test rejections"]
+    end
+
+    SyntheticCaveat --> ConstellationDesign
+    ConstellationDesign --> PrecomputedCalendar
+    PrecomputedCalendar --> QualityAudit
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 4: OLAP MULTIDIMENSIONAL EXPLORATION
+    %% ------------------------------------------------------------------------
+    subgraph S4_OLAP_Analysis ["4. OLAP Multidimensional Cube Execution"]
+        direction TB
+        OLAP_Ops["5 Canonical OLAP Operations:<br/>- Roll-Up: Institutional summary aggregates<br/>- Drill-Down: Department to corporate breakdowns<br/>- Slice: Department, Tier, Year equality filters<br/>- Dice: Multi-axis bounding box LPA thresholds<br/>- Pivot: 2D Matrix cross-tabulations with marginal totals"]
+        ExactStats["Exact Continuous Medians via PERCENTILE_CONT(0.5)<br/>Whitelist-enforced SQL injection immunity"]
+    end
+
+    QualityAudit --> OLAP_Ops
+    OLAP_Ops --> ExactStats
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 5: DATA MINING EXPERIMENTS
+    %% ------------------------------------------------------------------------
+    subgraph S5_DataMiningExperiments ["5. Tri-Pillar Data Mining Experiments"]
+        direction TB
+
+        Exp_Apriori["Pillar 1: Apriori Association Rule Mining<br/>- Mode A (2,000 alumni) vs Mode B (5,000 jobs)<br/>- Candidate gen, subset pruning, Support, Confidence, Lift<br/>- Result: {Docker, K8s} => {AWS} (Conf: 74.2%, Lift: 1.48x)"]
+
+        Exp_Clustering["Pillar 2: Unsupervised Profile Clustering<br/>- K-Means++ with Mulberry32 PRNG (seed 2026)<br/>- Multi-K WCSS Elbow (K=3) & Peak Silhouette (K=4: 0.561)<br/>- Power Iteration 2D PCA visual scatter projection"]
+
+        Exp_Classifier["Pillar 3: Supervised Employability Prediction<br/>- Regularized Logistic Regression (L2=0.002, Balanced Loss)<br/>- Zero Leakage: Preprocessor fit strictly on 80% train partition<br/>- Result: 78.3% Test Acc, 82.1% Prec, 87.5% Rec, ROC-AUC = 0.812"]
+    end
+
+    ExactStats --> Exp_Apriori
+    ExactStats --> Exp_Clustering
+    ExactStats --> Exp_Classifier
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 6: EVALUATION & RIGOROUS VERIFICATION
+    %% ------------------------------------------------------------------------
+    subgraph S6_EvaluationVerification ["6. Empirical Evaluation & Quality Assurance"]
+        direction TB
+        TestSuite["Automated Test Harness (node:test)<br/>78 Tests / 100% Pass Rate / Hand-calculated fixtures"]
+        EvidenceRegister["Evidence & Claim Register<br/>25 master claims mapped to source code symbols and DB queries"]
+    end
+
+    Exp_Apriori --> TestSuite
+    Exp_Clustering --> TestSuite
+    Exp_Classifier --> TestSuite
+    TestSuite --> EvidenceRegister
+
+    %% ------------------------------------------------------------------------
+    %% STAGE 7: THREATS TO VALIDITY & FUTURE WORK
+    %% ------------------------------------------------------------------------
+    subgraph S7_ValidityFuture ["7. Threats to Validity & Future Roadmap"]
+        direction TB
+        Threats["Threats to Validity:<br/>- Synthetic data distributions vs real-world employment shifts<br/>- In-memory Node.js V8 heap limits for multi-million scale"]
+        FutureRoadmap["Proposed Future Extensions:<br/>- Heterogeneous Graph Neural Networks (GNN) on student-skill graphs<br/>- Non-linear Gradient Boosted Trees (XGBoost)<br/>- Automated closed-loop curricular recommender systems"]
+    end
+
+    EvidenceRegister --> Threats
+    Threats --> FutureRoadmap

@@ -1,0 +1,74 @@
+%% ============================================================================
+%% DWM Platform - Deployment and Runtime Topology Diagram
+%% File: 14_runtime_topology.mmd
+%% Scope: Independent runtime processes, port allocations, network communication,
+%%        and physical vs schema-level isolation from the parent Alumni Portal.
+%% ============================================================================
+
+flowchart TB
+    %% ------------------------------------------------------------------------
+    %% USER BROWSER SESSIONS
+    %% ------------------------------------------------------------------------
+    subgraph ClientBrowser ["Analyst / User Workstation (Web Browser)"]
+        Browser_DWM["DWM Analytics Cockpit Session<br/>http://localhost:5174/"]
+        Browser_Portal["Operational Alumni Portal Session<br/>http://localhost:5173/"]
+    end
+
+    %% ------------------------------------------------------------------------
+    %% RUNTIME HOST: DWM SUBSYSTEM
+    %% ------------------------------------------------------------------------
+    subgraph DWM_Subsystem ["DWM Analytical Subsystem (Independent Root: /DWM-project/)"]
+        direction TB
+
+        subgraph DWM_ClientNode ["Process: DWM Frontend Client"]
+            Vite_DWM["Vite Dev Server (Node.js Process)<br/>Port: 5174<br/>Root: DWM-project/client<br/>Package: dwm-analytics-client"]
+        end
+
+        subgraph DWM_ServerNode ["Process: DWM Backend Server"]
+            Express_DWM["Express API Server (Node.js Process)<br/>Port: 5001<br/>Root: DWM-project/server<br/>Package: dwm-analytics-server<br/>Env: PORT=5001, PG_SCHEMA=dwh"]
+        end
+    end
+
+    Browser_DWM -- "HTTP (Port 5174)" --> Vite_DWM
+    Vite_DWM -.->|"Axios API Calls (Port 5001)"| Express_DWM
+
+    %% ------------------------------------------------------------------------
+    %% RUNTIME HOST: OPERATIONAL PORTAL SUBSYSTEM
+    %% ------------------------------------------------------------------------
+    subgraph Operational_Subsystem ["Parent Alumni Portal Application (Root: /)"]
+        direction TB
+
+        subgraph Portal_ClientNode ["Process: Operational Client"]
+            Vite_Portal["Vite Dev Server (Node.js Process)<br/>Port: 5173<br/>Root: client/<br/>Package: alumni-network-portal"]
+        end
+
+        subgraph Portal_ServerNode ["Process: Operational Backend"]
+            Express_Portal["Express API Server (Node.js Process)<br/>Port: 5000<br/>Root: server/<br/>Package: alumni-network-server<br/>Env: PORT=5000"]
+        end
+    end
+
+    Browser_Portal -- "HTTP (Port 5173)" --> Vite_Portal
+    Vite_Portal -.->|"Axios API Calls (Port 5000)"| Express_Portal
+
+    %% ------------------------------------------------------------------------
+    %% STORAGE TIER & SCHEMA ISOLATION
+    %% ------------------------------------------------------------------------
+    subgraph DatabaseInstance ["PostgreSQL Database Server (Port 54329 - Embedded PGlite)"]
+        direction TB
+
+        subgraph DWH_Storage ["Analytical Schema: 'dwh'"]
+            DWH_Tables[("15 Analytical Tables<br/>(56,732 Records)<br/>- 6 Conformed Dimensions<br/>- 3 Multivalued Bridges<br/>- 4 Analytical Facts<br/>- 2 Ingestion Ledgers")]
+        end
+
+        subgraph Public_Storage ["Operational Schema: 'public'"]
+            Public_Tables[("Operational OLTP Tables<br/>- users (36 accounts)<br/>- jobs, posts, applications<br/>- messages, notifications")]
+        end
+    end
+
+    Express_DWM -- "TCP Socket Connection<br/>DATABASE_URL on Port 54329<br/>search_path = dwh" --> DWH_Storage
+    Express_Portal -- "TCP Socket Connection<br/>DATABASE_URL on Port 54329<br/>search_path = public" --> Public_Storage
+
+    %% ------------------------------------------------------------------------
+    %% PHYSICAL & LOGICAL BOUNDARIES
+    %% ------------------------------------------------------------------------
+    DWH_Storage <-.->|"ZERO Cross-Schema Foreign Keys<br/>ZERO Operational Replication Triggers<br/>Complete Transactional Isolation"| Public_Storage

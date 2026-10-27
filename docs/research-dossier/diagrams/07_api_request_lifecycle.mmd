@@ -1,0 +1,82 @@
+%% ============================================================================
+%% DWM Platform - General API Request Lifecycle Diagram
+%% File: 07_api_request_lifecycle.mmd
+%% Scope: End-to-end traversal of an analytics request from UI interaction to
+%%        database query execution, JSON enveloping, and DOM rendering.
+%% ============================================================================
+
+flowchart LR
+    %% ------------------------------------------------------------------------
+    %% CLIENT STEPS
+    %% ------------------------------------------------------------------------
+    subgraph ClientExecution ["1. Client Interaction & Dispatch"]
+        UserAction["Analyst User Action<br/>(Select Filter / Click Run)"]
+        ReactState["React Hook Dispatch<br/>(useState / useEffect / useMemo)"]
+        AxiosClient["Axios Client (http.js)<br/>(Attaches Bearer Token / BaseURL)"]
+    end
+
+    UserAction --> ReactState
+    ReactState --> AxiosClient
+
+    %% ------------------------------------------------------------------------
+    %% NETWORK BOUNDARY
+    %% ------------------------------------------------------------------------
+    AxiosClient -- "HTTP REST Request (Port 5001)" --> NetworkBoundary["Express Server Entry<br/>(server.js)"]
+
+    %% ------------------------------------------------------------------------
+    %% SERVER MIDDLEWARE & ROUTING
+    %% ------------------------------------------------------------------------
+    subgraph ServerProcessing ["2. Server Gate & Validation"]
+        direction TB
+        SecurityHeaders["helmet() & cors()<br/>(Security Verification)"]
+        AuthCheck{"requireAuth<br/>(Validate Token / Guest)"}
+        SchemaValidation{"validate()<br/>(Zod Query / Body Parser)"}
+        RouteDispatch["Express Route Handler<br/>(analyticsRoutes.js)"]
+    end
+
+    NetworkBoundary --> SecurityHeaders
+    SecurityHeaders --> AuthCheck
+    AuthCheck -- "Valid / Permitted" --> SchemaValidation
+    SchemaValidation -- "Schema Pass" --> RouteDispatch
+    SchemaValidation -- "Schema Fail" --> Err400["HTTP 400 Bad Request<br/>{ success: false, errors }"]
+
+    %% ------------------------------------------------------------------------
+    %% BUSINESS LOGIC & DATA ACCESS
+    %% ------------------------------------------------------------------------
+    subgraph CoreExecution ["3. Controller & Service Execution"]
+        Controller["Controller Action<br/>(e.g. getOlap / getAssociationRules)"]
+        ServiceLogic["Service Algorithmic Logic<br/>(Computation, Filtering, Formatting)"]
+        RepositorySQL["Repository Layer<br/>(Construct Parameterized SQL)"]
+        DBPool["pg.Pool Client<br/>(Acquires Connection)"]
+    end
+
+    RouteDispatch --> Controller
+    Controller --> ServiceLogic
+    ServiceLogic --> RepositorySQL
+    RepositorySQL --> DBPool
+
+    %% ------------------------------------------------------------------------
+    %% DATABASE EXECUTION
+    %% ------------------------------------------------------------------------
+    subgraph DatabaseExecution ["4. Warehouse Query Execution"]
+        DWH_Engine[("PostgreSQL 16 (dwh schema)<br/>Executes SQL prepared statement")]
+    end
+
+    DBPool -- "TCP Prepared SQL ($1, $2)" --> DWH_Engine
+    DWH_Engine -- "Returns Tuples / Recordset" --> DBPool
+
+    %% ------------------------------------------------------------------------
+    %% RESPONSE PIPELINE
+    %% ------------------------------------------------------------------------
+    subgraph ResponsePipeline ["5. Response Packaging & DOM Render"]
+        ResponseEnvelope["Format Standardized DTO<br/>{ success: true, data, meta }"]
+        HTTP200["HTTP 200 OK Response<br/>(application/json)"]
+        DOMRender["Recharts & SVG Render<br/>(Interactive Charts & Heatmaps)"]
+    end
+
+    DBPool --> ServiceLogic
+    ServiceLogic --> Controller
+    Controller --> ResponseEnvelope
+    ResponseEnvelope --> HTTP200
+    HTTP200 -- "HTTP JSON Payload" --> AxiosClient
+    AxiosClient --> DOMRender

@@ -1,0 +1,84 @@
+%% ============================================================================
+%% DWM Platform - Decoupled Authentication and Role-Based Access Control Flow
+%% File: 13_auth_flow.mmd
+%% Scope: Authentication inspection, API key and Bearer token handling,
+%%        role-based authorization checks, and decoupled analyst identity.
+%% ============================================================================
+
+flowchart TD
+    %% ------------------------------------------------------------------------
+    %% REQUEST INTAKE
+    %% ------------------------------------------------------------------------
+    subgraph RequestIntake ["1. Incoming API Request (Port 5001)"]
+        Req["Incoming HTTP Request<br/>URL: /api/*"]
+        EndpointType{"Endpoint Classification"}
+    end
+
+    Req --> EndpointType
+
+    %% ------------------------------------------------------------------------
+    %% UNPROTECTED READ-ONLY ANALYTICAL PATH
+    %% ------------------------------------------------------------------------
+    subgraph ReadOnlyPath ["2. Public / Analytical Read-Only Pathway"]
+        ReadEndpoints["Visual Read-Only Endpoints<br/>- /api/analytics/overview<br/>- /api/analytics/career & /skills & /alumni<br/>- /api/analytics/olap<br/>- /api/analytics/warehouse/*<br/>- /api/analytics/mining/*"]
+        GuestPermitted["allowGuestAnalytics Enabled<br/>Unauthenticated analyst exploration permitted"]
+        ExecuteRead["Execute Controller & Return Data<br/>HTTP 200 OK"]
+    end
+
+    EndpointType -- "GET Analytical Queries" --> ReadEndpoints
+    ReadEndpoints --> GuestPermitted
+    GuestPermitted --> ExecuteRead
+
+    %% ------------------------------------------------------------------------
+    %% PROTECTED INGESTION & MUTATION PATH
+    %% ------------------------------------------------------------------------
+    subgraph ProtectedPath ["3. Protected Ingestion & Mutation Pathway"]
+        MutateEndpoints["Warehouse Mutation Endpoints<br/>- POST /api/analytics/etl/upload<br/>- POST /api/analytics/etl/confirm-import<br/>- POST /api/analytics/etl/rollback-import"]
+        RequireAuthMW["requireAuth Middleware<br/>(src/middleware/auth.js)"]
+    end
+
+    EndpointType -- "POST ETL Mutations" --> MutateEndpoints
+    MutateEndpoints --> RequireAuthMW
+
+    %% ------------------------------------------------------------------------
+    %% AUTHENTICATION INSPECTION PIPELINE
+    %% ------------------------------------------------------------------------
+    subgraph AuthPipeline ["4. Header Inspection Pipeline"]
+        CheckAPIKey{"x-api-key Header Present?"}
+        AssignAPIKey["Assign req.user = {<br/>  id: 'dwm-analyst-001',<br/>  roles: ['ANALYST', 'RESEARCHER', 'ADMIN'],<br/>  authMethod: 'api-key'<br/>}"]
+        
+        CheckBearer{"Authorization Header<br/>starts with 'Bearer '?"}
+        AssignBearer["Assign req.user = {<br/>  id: 'dwm-analyst-001',<br/>  roles: ['ANALYST', 'RESEARCHER', 'ADMIN'],<br/>  authMethod: 'bearer'<br/>}"]
+        
+        DevFallback["Standalone Development Fallback:<br/>Assign default DWM_ANALYST_USER<br/>(Roles: ANALYST, RESEARCHER, ADMIN)"]
+    end
+
+    RequireAuthMW --> CheckAPIKey
+    CheckAPIKey -- "Yes" --> AssignAPIKey
+    CheckAPIKey -- "No" --> CheckBearer
+    CheckBearer -- "Yes" --> AssignBearer
+    CheckBearer -- "No" --> DevFallback
+
+    %% ------------------------------------------------------------------------
+    %% ROLE-BASED ACCESS CONTROL (RBAC)
+    %% ------------------------------------------------------------------------
+    subgraph RBAC_Gate ["5. Role Authorization Gate (requireRole)"]
+        RoleCheck{"req.user.roles contains<br/>required role for route?<br/>(e.g. 'ADMIN' / 'RESEARCHER')"}
+        PermitAccess["Permit Request to Controller<br/>Proceed to CSV ETL Pipeline"]
+        DenyAccess["HTTP 403 Forbidden<br/>{ success: false, message: 'Forbidden: requires role' }"]
+    end
+
+    AssignAPIKey --> RoleCheck
+    AssignBearer --> RoleCheck
+    DevFallback --> RoleCheck
+    RoleCheck -- "Role Authorized" --> PermitAccess
+    RoleCheck -- "Role Unauthorized" --> DenyAccess
+
+    %% ------------------------------------------------------------------------
+    %% DECOUPLING GUARANTEE NOTE
+    %% ------------------------------------------------------------------------
+    subgraph DecoupledCallout ["Decoupling Guarantee"]
+        NoteAuth["Zero Dependency on public.users<br/>Auth is completely localized to DWM token validation<br/>with no SQL lookups against operational credentials."]
+    end
+
+    PermitAccess -.-> DecoupledCallout

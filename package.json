@@ -1,0 +1,14 @@
+{
+  "name": "dwm-project",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Independent Data Warehousing and Data Mining (DWM) Analytical Platform",
+  "type": "module",
+  "scripts": {
+    "start": "npm --prefix server run start",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "test": "npm --prefix server run test",
+    "build": "npm --prefix client run build"
+  }
+}

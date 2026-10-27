@@ -1,0 +1,122 @@
+%% ============================================================================
+%% DWM Platform - Backend Architecture Diagram
+%% File: 03_backend_architecture.mmd
+%% Scope: Express server, middleware stack, route controllers, domain services,
+%%        repositories, and PostgreSQL connection pool.
+%% ============================================================================
+
+flowchart TD
+    %% ------------------------------------------------------------------------
+    %% SERVER ENTRY & MIDDLEWARE
+    %% ------------------------------------------------------------------------
+    subgraph ServerCore ["Server Core & Middleware Pipeline (server.js / app.js)"]
+        Entry["Server Bootstrap (server.js - Port 5001)"]
+        App["Express Application (app.js)"]
+        
+        subgraph Middlewares ["Security & Request Pre-Processing"]
+            MW_Helmet["helmet()<br/>(Security Headers)"]
+            MW_CORS["cors({ origin: 'http://localhost:5174' })"]
+            MW_JSON["express.json({ limit: '10mb' })"]
+            MW_Multer["wrapUpload(uploadCsv)<br/>(Multer 25MB Memory Storage)"]
+            MW_Auth["requireAuth & requireRole()<br/>(Decoupled Analyst Token / API-Key)"]
+            MW_Zod["validate({ query, params, body })<br/>(Zod Strict Type Coercion)"]
+        end
+    end
+
+    Entry --> App
+    App --> MW_Helmet
+    MW_Helmet --> MW_CORS
+    MW_CORS --> MW_JSON
+    MW_JSON --> MW_Multer
+    MW_Multer --> MW_Auth
+    MW_Auth --> MW_Zod
+
+    %% ------------------------------------------------------------------------
+    %% ROUTING TIER
+    %% ------------------------------------------------------------------------
+    subgraph RoutingTier ["Routing Tier (src/routes/)"]
+        RootRouter["index.js (/api)"]
+        R_Analytics["analyticsRoutes.js<br/>(/api/analytics/*)"]
+        R_Mining["dataminingRoutes.js<br/>(/api/analytics/mining/*)"]
+    end
+
+    MW_Zod --> RootRouter
+    RootRouter --> R_Analytics
+    R_Analytics --> R_Mining
+
+    %% ------------------------------------------------------------------------
+    %% CONTROLLER TIER
+    %% ------------------------------------------------------------------------
+    subgraph ControllerTier ["Controller Tier (src/controllers/)"]
+        Ctrl_Analytics["analyticsController.js<br/>(getOverview, getCareer, getSkills, getAlumni, getOlap)"]
+        Ctrl_Warehouse["warehouseOverviewController.js<br/>(getWarehouseSummary, getWarehouseSchema, getWarehouseTableDetails, getWarehouseDataQuality)"]
+        Ctrl_CSV["csvIngestionController.js<br/>(uploadCsv, confirmImport, rollbackImport, getEtlHistory)"]
+        Ctrl_Mining["dataminingController.js<br/>(getSummary, getClustering, getAssociationRules, trainClassification, predictClassification)"]
+    end
+
+    R_Analytics --> Ctrl_Analytics
+    R_Analytics --> Ctrl_Warehouse
+    R_Analytics --> Ctrl_CSV
+    R_Mining --> Ctrl_Mining
+
+    %% ------------------------------------------------------------------------
+    %% SERVICE LAYER (DWH & MINING DOMAINS)
+    %% ------------------------------------------------------------------------
+    subgraph ServiceTier ["Service Tier (src/services/)"]
+        direction TB
+
+        subgraph DWH_Services ["Data Warehousing & ETL Domain (/services/dwh/)"]
+            Svc_Overview["warehouseOverviewService.js<br/>(System Stats, Schema Catalog, 38 Data Quality Checks)"]
+            Svc_CSV["csvIngestionService.js<br/>(Stream Parser, Dry-Run Validator, Surrogate Key Lookup)"]
+            Svc_Pipeline["etlPipeline.js<br/>(Batch Pipeline Runner, Error Recovery)"]
+        end
+
+        subgraph Mining_Services ["Data Mining & Machine Learning Domain (/services/datamining/)"]
+            Svc_Apriori["associationRulesService.js<br/>(Apriori Candidate Gen C_k, Pruning, Support, Confidence, Lift)"]
+            Svc_KMeans["clusteringService.js<br/>(Mulberry32 PRNG, K-Means++, WCSS Inertia, Silhouette)"]
+            Svc_Classify["classificationService.js<br/>(Batch Gradient Descent, L2 Regularization, Balanced Loss)"]
+            Svc_FeatEng["featureEngineeringService.js<br/>(Stratified Split, Scaling, Power Iteration PCA)"]
+            Svc_Eval["evaluationService.js<br/>(Confusion Matrix, ROC-AUC Integration, Distance Metrics)"]
+        end
+    end
+
+    Ctrl_Warehouse --> Svc_Overview
+    Ctrl_CSV --> Svc_CSV
+    Ctrl_CSV --> Svc_Pipeline
+
+    Ctrl_Mining --> Svc_Apriori
+    Ctrl_Mining --> Svc_KMeans
+    Ctrl_Mining --> Svc_Classify
+
+    Svc_KMeans --> Svc_FeatEng
+    Svc_KMeans --> Svc_Eval
+    Svc_Classify --> Svc_FeatEng
+    Svc_Classify --> Svc_Eval
+
+    %% ------------------------------------------------------------------------
+    %% REPOSITORY & DATABASE ACCESS LAYER
+    %% ------------------------------------------------------------------------
+    subgraph DataAccessTier ["Data Access & Repository Layer"]
+        Repo_Warehouse["warehouseRepository.js<br/>(getOlapData with Slicing/Dicing/Pivoting, Aggregation SQL)"]
+        Repo_Mining["dataminingRepository.js<br/>(getSkillTransactionBaskets, getAlumniSkillDataset, getClassificationTrainingDataset)"]
+        DBPool["dwh.js Database Pool<br/>(pg.Pool with Parameterized Queries $1, $2)"]
+    end
+
+    Ctrl_Analytics --> Repo_Warehouse
+    Svc_Overview --> Repo_Warehouse
+    Svc_CSV --> Repo_Warehouse
+    Svc_Apriori --> Repo_Mining
+    Svc_KMeans --> Repo_Mining
+    Svc_Classify --> Repo_Mining
+
+    Repo_Warehouse --> DBPool
+    Repo_Mining --> DBPool
+
+    %% ------------------------------------------------------------------------
+    %% DATABASE STORAGE
+    %% ------------------------------------------------------------------------
+    subgraph DatabaseStorage ["Analytical PostgreSQL Storage (Port 54329)"]
+        DWH_Schema[("PostgreSQL 'dwh' Schema<br/>15 Tables / 56,732 Records")]
+    end
+
+    DBPool -- "SQL over TCP (Single-schema isolation)" --> DWH_Schema
